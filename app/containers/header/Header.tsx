@@ -27,7 +27,7 @@ export const Header: FC = () => {
                     {menuListItems.map((item, index) => {
                         const {href, label} = item;
                         return (
-                            <li className={styles.item}>
+                            <li className={styles.item} key={label}>
                                 <a href={href}>
                                     {label}
                                 </a>
