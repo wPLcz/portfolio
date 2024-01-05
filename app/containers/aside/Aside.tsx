@@ -12,7 +12,7 @@ export const Aside: FC = () => {
 
             <nav className={styles.navigation}>
                 <ul className={styles.asideList}>
-                    {menuListItems.map((item, index, index) => {
+                    {menuListItems.map((item, index) => {
                         const {href, label} = item;
                         return (
                             <li className={styles.asideListItem} key={item.href + index}>
