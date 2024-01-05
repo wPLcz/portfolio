@@ -1,0 +1,19 @@
+@use "../../styles/breakpoints";
+
+.logo {
+  margin: auto;
+  width: 75px;
+  height: 75px;
+  top: 10%;
+  cursor: none;
+  fill: red;
+
+  @media (min-width: breakpoints.$small) {
+    width: 100px;
+    height: 100px;
+  }
+  @media (min-width: breakpoints.$medium) {
+    width: 125px;
+    height: 125px;
+  }
+}

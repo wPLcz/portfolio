@@ -1,0 +1,8 @@
+.page {
+  min-height: 100vh;
+  display: grid;
+  width: 100vw;
+  grid-template-columns: auto 3fr;
+  grid-template-areas:
+    "aside content"
+}
