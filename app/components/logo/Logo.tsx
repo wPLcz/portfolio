@@ -1,56 +1,37 @@
-'use client'
-import {FC, useRef, useEffect} from "react";
-
-import {TweenMax} from "gsap";
+import { FC, useRef, useEffect } from "react";
+import "@/app/styles/colors.scss";
+import { TweenMax } from "gsap";
 import styles from "./Logo.module.scss";
+import {
+    ref1_points_base,
+    ref1_points_expanded, ref2_points_base,
+    ref2_points_expanded, ref3_points_base,
+    ref3_points_expanded, ref4_points_base,
+    ref4_points_expanded
+} from "@/app/components/logo/config";
+
+//TODO setting types for arguments
+const animateReference = (ref: any, expandedPoints: any) => {
+    TweenMax.to(ref.current, 2, {
+        attr: {points: expandedPoints},
+        repeatDelay: 1,
+        yoyo: true,
+        repeat: -1,
+        ease: "sine.out",
+    });
+};
+
 export const Logo: FC = () => {
     const ref2 = useRef(null);
     const ref1 = useRef(null);
     const ref3 = useRef(null);
     const ref4 = useRef(null);
 
-//                      lewy dol          lewa gora       prawa gora      prawy srodek
-    const ref1expanded = "787.556,427.557 772.556,382.557 788.556,382.557 795.556,403.557";
-//                      lewy dol          prawy dol       prawa gora      lewa gora
-    const ref2expanded = "788.556,430.557 804.556,430.557 820.556,382.557 804.556,382.557";
-//                      srodek gora       lewy srodek     srodek dol      prawy srodek
-    const ref3expanded = "821.556,385.557 813.556,409.557 819.556,427.557 827.556,403.557";
-//                      lewy dol          prawy dol       prawa gora      lewa gora
-    const ref4expanded = "820.556,430.557 836.556,430.557 852.556,382.557 836.556,382.557";
-
     useEffect(() => {
-        TweenMax.to(ref1.current, 2.5,
-            {
-                attr: {points: ref1expanded},
-                repeatDelay: 1,
-                yoyo: true,
-                repeat: -1,
-                ease: "sine.out"
-            });
-        TweenMax.to(ref2.current, 2.5,
-            {
-                attr: {points: ref2expanded},
-                repeatDelay: 1,
-                yoyo: true,
-                repeat: -1,
-                ease: "sine.out"
-            });
-        TweenMax.to(ref3.current, 2.5,
-            {
-                attr: {points: ref3expanded},
-                repeatDelay: 1,
-                yoyo: true,
-                repeat: -1,
-                ease: "sine.out"
-            });
-        TweenMax.to(ref4.current, 2.5,
-            {
-                attr: {points: ref4expanded},
-                repeatDelay: 1,
-                yoyo: true,
-                repeat: -1,
-                ease: "sine.out"
-            });
+        animateReference(ref1, ref1_points_expanded);
+        animateReference(ref2, ref2_points_expanded);
+        animateReference(ref3, ref3_points_expanded);
+        animateReference(ref4, ref4_points_expanded);
     });
 
     return (
@@ -63,19 +44,19 @@ export const Logo: FC = () => {
                 viewBox="772.556 382.557 80 48">
                 <g>
                     <polygon ref={ref1}
-                             points="787.556,427.557 772.556,382.557 772.556,382.557 787.556,427.557 "/>
+                             points={ref1_points_base}/>
                 </g>
                 <g>
                     <polygon ref={ref2}
-                             points="788.556,430.557 788.556,430.557 804.556,382.557 804.556,382.557"/>
+                             points={ref2_points_base}/>
                 </g>
                 <g>
                     <polygon ref={ref3}
-                             points="821.556,385.557 813.556,409.557 813.556,409.557 821.556,385.557"/>
+                             points={ref3_points_base}/>
                 </g>
                 <g>
                     <polygon ref={ref4}
-                             points="820.556,430.557 820.556,430.557 836.556,382.557 836.556,382.557"/>
+                             points={ref4_points_base}/>
                 </g>
             </svg>
         </>

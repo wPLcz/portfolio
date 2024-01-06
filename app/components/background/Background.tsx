@@ -1,5 +1,5 @@
 import styles from "./Background.module.scss";
-import {Noise} from '../noise/Noise';
+import {Noise} from "../noise/Noise";
 
 export const Background = () => {
     return (

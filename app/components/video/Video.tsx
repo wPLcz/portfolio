@@ -1,4 +1,4 @@
-import styles from './Video.module.scss';
+import styles from "./Video.module.scss";
 import {FC} from "react";
 import {VideoProps} from "./Video.types";
 

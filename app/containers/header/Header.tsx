@@ -5,16 +5,16 @@ import {Logo} from "../../components/logo/Logo";
 
 export const menuListItems: ListItem[] = [
     {
-        label: 'home',
-        href: '/',
+        label: "home",
+        href: "/",
     },
     {
-        label: 'works',
-        href: '/works',
+        label: "works",
+        href: "/works",
     },
     {
-        label: 'contact',
-        href: '/contact',
+        label: "contact",
+        href: "/contact",
     }
 ]
 
