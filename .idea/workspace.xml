@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4aa3fe4-fdc8-4576-af18-affba2f2c501" name="Changes" comment="some project amendmends as well as svg fixes">
+      <change afterPath="$PROJECT_DIR$/pages/contact/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../portfolio_2018/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../portfolio_2018/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../portfolio_2018/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../portfolio_2018/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/.idea/portfolio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/.idea/portfolio.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../portfolio_2018/.idea/reactTemplatesPlugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/.idea/reactTemplatesPlugin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../portfolio_2018/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../portfolio_2018/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/package.json" afterDir="false" />
@@ -84,6 +86,8 @@
       <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/utilities/Fonts.js" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/utilities/Fonts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../portfolio_2018/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/contact.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/contact/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/containers/header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/containers/header/Header.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,6 +112,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
@@ -115,7 +120,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/wojciechpalacz/Repositories/portfolio_2024",
+    "last_opened_file_path": "/Users/wojciechpalacz/Repositories/portfolio_2024/app/pages",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -127,6 +132,15 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/pages" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/app/contact" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
@@ -152,7 +166,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1704879210652</updated>
-      <workItem from="1704879211707" duration="3635000" />
+      <workItem from="1704879211707" duration="4714000" />
     </task>
     <task id="LOCAL-00001" summary="some project amendmends as well as svg fixes">
       <option name="closed" value="true" />
@@ -170,7 +184,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704894829350</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="some project amendmends as well as svg fixes">
+      <option name="closed" value="true" />
+      <created>1704895058900</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1704895058900</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
