@@ -1,8 +1,8 @@
 
-import styles from "./styles/page.module.scss"
-import {Video} from "@/app/components/video/Video";
-import {Background} from "@/app/components/background/Background";
-import {Aside} from "@/app/containers/aside/Aside";
+import styles from './styles/page.module.scss'
+import {Video} from '@/app/components/video/Video';
+import {Background} from '@/app/components/background/Background';
+import {Aside} from '@/app/containers/aside/Aside';
 
 export default function Home() {
   return (

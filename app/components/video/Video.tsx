@@ -1,6 +1,6 @@
-import styles from "./Video.module.scss";
-import {FC} from "react";
-import {VideoProps} from "./Video.types";
+import styles from './Video.module.scss';
+import {FC} from 'react';
+import {VideoProps} from './Video.types';
 
 export const Video: FC<VideoProps> = (src, type) => {
     return (

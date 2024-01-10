@@ -2,11 +2,27 @@
 import debounce from 'debounce';
 import { FC, useEffect, useState } from 'react';
 import styles from './Aside.module.scss';
-import { menuListItems } from '../header/Header';
 import { Logo } from '../../components/logo/Logo';
 import { LinkedInIcon } from '@/app/components/socialIcons/linkedinIcon/LinkedInIcon';
 import { GithubIcon } from '@/app/components/socialIcons/githubIcon/GithubIcon';
 import { FacebookIcon } from '@/app/components/socialIcons/facebookIcon/FacebookIcon';
+import { ListItem } from '@/app/containers/aside/Aside.types';
+
+export const menuListItems: ListItem[] = [
+    {
+        label: 'home',
+        href: '/',
+    },
+    {
+        label: 'cv',
+        href: '/cv',
+    },
+    {
+        label: 'contact',
+        href: '/contact',
+    }
+]
+
 
 export const Aside: FC = () => {
     const [isHoverActive, setIsHoverActive] = useState(false);
