@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4aa3fe4-fdc8-4576-af18-affba2f2c501" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/components/socialIcons/facebookIcon/FacebookIcon.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/socialIcons/githubIcon/GithubIcon.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/socialIcons/linkedinIcon/LinkedInIcon.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/socialIcons/socialIcons.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/contact.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/styles/page.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    <list default="true" id="b4aa3fe4-fdc8-4576-af18-affba2f2c501" name="Changes" comment="some project amendmends as well as svg fixes">
       <change beforePath="$PROJECT_DIR$/../portfolio_2018/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../portfolio_2018/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../portfolio_2018/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/.idea/misc.xml" afterDir="false" />
@@ -90,26 +83,7 @@
       <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/store/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/store/reducers/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/utilities/Fonts.js" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/utilities/Fonts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../portfolio_2018/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/portfolio_2024.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/portfolio_2024.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/svg/social-media/codepen.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/svg/social-media/fb.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/svg/social-media/github.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/svg/social-media/linkedin.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/svg/social-media/twitter.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/logo/Logo.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/logo/Logo.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/logo/Logo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/logo/Logo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/containers/aside/Aside.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/containers/aside/Aside.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/containers/aside/Aside.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/containers/aside/Aside.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/containers/header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/containers/header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/contact.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/styles/colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/colors.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,6 +122,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "yarn",
     "npm.dev.executor": "Run",
+    "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog",
     "ts.external.directory.path": "/Users/wojciechpalacz/Repositories/portfolio_2024/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -177,8 +152,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1704879210652</updated>
-      <workItem from="1704879211707" duration="3374000" />
+      <workItem from="1704879211707" duration="3635000" />
     </task>
+    <task id="LOCAL-00001" summary="some project amendmends as well as svg fixes">
+      <option name="closed" value="true" />
+      <created>1704894806087</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1704894806087</updated>
+    </task>
+    <task id="LOCAL-00002" summary="some project amendmends as well as svg fixes">
+      <option name="closed" value="true" />
+      <created>1704894829350</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1704894829350</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,5 +186,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="some project amendmends as well as svg fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="some project amendmends as well as svg fixes" />
   </component>
 </project>
