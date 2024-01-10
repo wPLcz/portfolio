@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4aa3fe4-fdc8-4576-af18-affba2f2c501" name="Changes" comment="removing header component">
+    <list default="true" id="b4aa3fe4-fdc8-4576-af18-affba2f2c501" name="Changes" comment="fixing before deployment">
       <change beforePath="$PROJECT_DIR$/../portfolio_2018/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../portfolio_2018/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../portfolio_2018/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/.idea/misc.xml" afterDir="false" />
@@ -124,6 +124,8 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "yarn",
     "npm.dev.executor": "Run",
+    "npm.lint.executor": "Run",
+    "npm.lint:fix.executor": "Run",
     "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog",
     "ts.external.directory.path": "/Users/wojciechpalacz/Repositories/portfolio_2024/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
@@ -138,7 +140,7 @@
       <recent name="$PROJECT_DIR$/app/contact" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.lint:fix">
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -149,8 +151,30 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="lint" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="lint" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="lint:fix" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="lint:fix" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.lint:fix" />
+        <item itemvalue="npm.lint" />
         <item itemvalue="npm.dev" />
       </list>
     </recent_temporary>
@@ -163,7 +187,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1704879210652</updated>
-      <workItem from="1704879211707" duration="5342000" />
+      <workItem from="1704879211707" duration="5991000" />
     </task>
     <task id="LOCAL-00001" summary="some project amendmends as well as svg fixes">
       <option name="closed" value="true" />
@@ -197,7 +221,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704900380333</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fixing before deployment">
+      <option name="closed" value="true" />
+      <created>1704918480133</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1704918480133</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,6 +249,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="some project amendmends as well as svg fixes" />
     <MESSAGE value="removing header component" />
-    <option name="LAST_COMMIT_MESSAGE" value="removing header component" />
+    <MESSAGE value="fixing before deployment" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixing before deployment" />
   </component>
 </project>
