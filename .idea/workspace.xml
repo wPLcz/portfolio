@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b4aa3fe4-fdc8-4576-af18-affba2f2c501" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/components/socialIcons/facebookIcon/FacebookIcon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/socialIcons/githubIcon/GithubIcon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/socialIcons/linkedinIcon/LinkedInIcon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/socialIcons/socialIcons.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/contact.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/page.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/.idea/reactTemplatesPlugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/.idea/reactTemplatesPlugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/assets/fonts/BebasNeueBold.eot" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/assets/fonts/BebasNeueBold.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/assets/fonts/BebasNeueBold.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/assets/fonts/BebasNeueBold.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/assets/fonts/BebasNeueBold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/assets/fonts/BebasNeueBold.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/assets/fonts/BebasNeueBold.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/assets/fonts/BebasNeueBold.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/assets/fonts/BebasNeueBook.eot" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/assets/fonts/BebasNeueBook.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/assets/fonts/BebasNeueBook.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/assets/fonts/BebasNeueBook.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/assets/fonts/BebasNeueBook.woff" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/assets/fonts/BebasNeueBook.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/assets/fonts/BebasNeueBook.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/assets/fonts/BebasNeueBook.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/assets/fonts/BebasNeueLight.eot" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/assets/fonts/BebasNeueLight.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/assets/fonts/BebasNeueLight.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/assets/fonts/BebasNeueLight.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/assets/fonts/BebasNeueLight.woff" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/assets/fonts/BebasNeueLight.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/assets/fonts/BebasNeueLight.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/assets/fonts/BebasNeueLight.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/assets/fonts/BebasNeueRegular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/assets/fonts/BebasNeueRegular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/assets/fonts/BebasNeueRegular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/assets/fonts/BebasNeueRegular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/assets/fonts/BebasNeueRegular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/assets/fonts/BebasNeueRegular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/assets/fonts/BebasNeueRegular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/assets/fonts/BebasNeueRegular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/assets/fonts/BebasNeueThin.eot" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/assets/fonts/BebasNeueThin.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/assets/fonts/BebasNeueThin.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/assets/fonts/BebasNeueThin.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/assets/fonts/BebasNeueThin.woff" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/assets/fonts/BebasNeueThin.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/assets/fonts/BebasNeueThin.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/assets/fonts/BebasNeueThin.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/assets/images/grain.png" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/assets/images/grain.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/assets/svg/social-media/codepen.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/assets/svg/social-media/codepen.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/assets/svg/social-media/github.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/assets/svg/social-media/github.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/components/FeaturesList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/components/FeaturesList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/components/FeaturesList.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/components/FeaturesList.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/components/HighlightedWord.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/components/HighlightedWord.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/components/HighlightedWord.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/components/HighlightedWord.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/components/Image.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/components/Image.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/components/Image.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/components/Image.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/components/LongDescription.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/components/LongDescription.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/components/LongDescription.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/components/LongDescription.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/components/Numeric.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/components/Numeric.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/components/Numeric.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/components/Numeric.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/components/ShortDescription.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/components/ShortDescription.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/components/ShortDescription.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/components/ShortDescription.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/components/SingleFeature.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/components/SingleFeature.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/components/SingleFeature.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/components/SingleFeature.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/components/SubTitle.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/components/SubTitle.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/components/SubTitle.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/components/SubTitle.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/components/Title.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/components/Title.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/components/Title.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/components/Title.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/components/__snapshots__/Numeric.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/components/__snapshots__/Numeric.test.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/components/__snapshots__/ShortDescription.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/components/__snapshots__/ShortDescription.test.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/components/common/Background.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/components/common/Background.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/components/common/Background.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/components/common/Background.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/components/common/Button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/components/common/Button.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/components/common/Button.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/components/common/Button.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/components/common/Logo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/components/common/Logo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/components/common/Logo.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/components/common/Logo.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/config/colors.js" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/config/colors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/config/fonts.js" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/config/fonts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/config/jobList.js" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/config/jobList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/config/skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/config/skills.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/containers/Aside.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/containers/Aside.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/containers/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/containers/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/jest.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/jest.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/pages/Experience.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/pages/Experience.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/pages/Introduction.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/pages/Introduction.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/pages/Skills.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/pages/Skills.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/pages/Works.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/pages/Works.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/saga/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/saga/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/saga/skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/saga/skills.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/store/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/store/reducers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/utilities/Fonts.js" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/utilities/Fonts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio_2018/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/portfolio_2024.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/portfolio_2024.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/svg/social-media/codepen.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/svg/social-media/fb.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/svg/social-media/github.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/svg/social-media/linkedin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/svg/social-media/twitter.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/logo/Logo.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/logo/Logo.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/logo/Logo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/logo/Logo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/containers/aside/Aside.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/containers/aside/Aside.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/containers/aside/Aside.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/containers/aside/Aside.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/containers/header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/containers/header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/contact.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/styles/colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/colors.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2al3CTqcdGpfpK6WyV9AOvQR7PG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/wojciechpalacz/Repositories/portfolio_2024",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "npm.dev.executor": "Run",
+    "ts.external.directory.path": "/Users/wojciechpalacz/Repositories/portfolio_2024/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b4aa3fe4-fdc8-4576-af18-affba2f2c501" name="Changes" comment="" />
+      <created>1704879210652</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704879210652</updated>
+      <workItem from="1704879211707" duration="3374000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
