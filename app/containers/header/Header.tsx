@@ -9,8 +9,8 @@ export const menuListItems: ListItem[] = [
         href: "/",
     },
     {
-        label: "works",
-        href: "/works",
+        label: "cv",
+        href: "/cv",
     },
     {
         label: "contact",

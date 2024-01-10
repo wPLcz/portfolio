@@ -4,7 +4,7 @@
   grid-area: aside;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: auto 2fr;
+  grid-template-rows: auto auto 2fr;
   height: 100%;
   border-right: 2px solid RGBA(153, 153, 153, 0.4);
   position: relative;
@@ -32,6 +32,17 @@
   margin: 24px;
   text-transform: uppercase;
   cursor: pointer;
+}
+
+.socialIcons {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+  align-items: start;
+}
+
+.socialIconAnchor {
+  display: grid;
 }
 
 .asideLink {
