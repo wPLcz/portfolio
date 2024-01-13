@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4aa3fe4-fdc8-4576-af18-affba2f2c501" name="Changes" comment="fixing before deployment">
+    <list default="true" id="b4aa3fe4-fdc8-4576-af18-affba2f2c501" name="Changes" comment="removing double cuotes">
       <change beforePath="$PROJECT_DIR$/../portfolio_2018/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../portfolio_2018/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../portfolio_2018/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/.idea/misc.xml" afterDir="false" />
@@ -86,7 +86,7 @@
       <change beforePath="$PROJECT_DIR$/../portfolio_2018/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/contact/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/contact/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,26 +126,26 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/wojciechpalacz/Repositories/portfolio_2024/app/styles/mixins&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;npm.build.executor&quot;: &quot;Run&quot;,
-    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
-    &quot;npm.lint.executor&quot;: &quot;Run&quot;,
-    &quot;npm.lint:fix.executor&quot;: &quot;Run&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.TypeScript&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/wojciechpalacz/Repositories/portfolio_2024/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/wojciechpalacz/Repositories/portfolio_2024/app/styles/mixins",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "npm.build.executor": "Run",
+    "npm.dev.executor": "Run",
+    "npm.lint.executor": "Run",
+    "npm.lint:fix.executor": "Run",
+    "settings.editor.selected.configurable": "preferences.sourceCode.TypeScript",
+    "ts.external.directory.path": "/Users/wojciechpalacz/Repositories/portfolio_2024/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -234,7 +234,7 @@
       <workItem from="1705003439772" duration="1843000" />
       <workItem from="1705064829999" duration="1416000" />
       <workItem from="1705068499954" duration="20662000" />
-      <workItem from="1705128628577" duration="1415000" />
+      <workItem from="1705128628577" duration="2221000" />
     </task>
     <task id="LOCAL-00001" summary="some project amendmends as well as svg fixes">
       <option name="closed" value="true" />
@@ -284,7 +284,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704919075859</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="removing double cuotes">
+      <option name="closed" value="true" />
+      <created>1705134407286</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1705134407286</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,7 +313,8 @@
     <MESSAGE value="some project amendmends as well as svg fixes" />
     <MESSAGE value="removing header component" />
     <MESSAGE value="fixing before deployment" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixing before deployment" />
+    <MESSAGE value="removing double cuotes" />
+    <option name="LAST_COMMIT_MESSAGE" value="removing double cuotes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

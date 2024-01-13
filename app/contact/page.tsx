@@ -5,7 +5,9 @@ import { Card } from '@/app/components/ui/card/Card';
 export default function Page() {
     return (
         <main className={styles.container}>
-            <Card title={'email'}/>
+            <Card>
+                Contact
+            </Card>
         </main>
     )
 }
