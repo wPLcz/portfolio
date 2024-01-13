@@ -1,14 +1,13 @@
-import styles from '@/app/components/socialIcons/socialIcons.module.scss';
+import styles from '@/app/components/layout/socialMedia/socialMedia.module.scss';
 import { FC } from 'react';
 import classNames from 'classnames';
 
 interface FacebookIconProps {
-    isHoverActive: boolean;
 }
 
-export const FacebookIcon: FC<FacebookIconProps> = ({isHoverActive}) => {
+export const FacebookIcon: FC<FacebookIconProps> = () => {
     return (
-        <svg className={classNames(styles.socialIcon, {[styles.active]: isHoverActive})} version="1.1" id="TwitterPath" xmlns="http://www.w3.org/2000/svg"
+        <svg className={classNames(styles.socialIcon)} version="1.1" id="TwitterPath" xmlns="http://www.w3.org/2000/svg"
              xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
              width="32px" height="32px" viewBox="198.556 198.557 32 32" enableBackground="new 198.556 198.557 32 32"
              xmlSpace="preserve">

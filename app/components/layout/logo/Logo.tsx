@@ -12,7 +12,7 @@ import {
     ref3_points_expanded,
     ref4_points_base,
     ref4_points_expanded
-} from '@/app/components/logo/config';
+} from '@/app/components/layout/logo/config';
 
 //TODO setting types for arguments
 const animateReference = (ref: any, expandedPoints: any) => {
@@ -26,10 +26,9 @@ const animateReference = (ref: any, expandedPoints: any) => {
 };
 
 interface LogoProps {
-    isHoverActive: boolean;
 }
 
-export const Logo: FC<LogoProps> = ({isHoverActive}) => {
+export const Logo: FC<LogoProps> = ({}) => {
     const ref2 = useRef(null);
     const ref1 = useRef(null);
     const ref3 = useRef(null);
@@ -45,7 +44,7 @@ export const Logo: FC<LogoProps> = ({isHoverActive}) => {
     return (
         <>
             <svg
-                className={classNames(styles.logo, {[styles.active]: isHoverActive})}
+                className={classNames(styles.logo)}
                 version="1.1"
                 x="0px"
                 y="0px"

@@ -3,8 +3,8 @@ import {Inter} from 'next/font/google'
 import './styles/global.scss'
 import styles from '@/app/styles/layout.module.scss';
 import {Aside} from '@/app/containers/aside/Aside';
-import {Background} from '@/app/components/background/Background';
-import {Video} from '@/app/components/video/Video';
+import {Background} from '@/app/components/layout/background/Background';
+import {Video} from '@/app/components/layout/video/Video';
 
 const inter = Inter({subsets: ['latin']})
 

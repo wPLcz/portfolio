@@ -1,13 +1,21 @@
-
 import styles from './styles/page.module.scss'
-import {Video} from '@/app/components/video/Video';
-import {Background} from '@/app/components/background/Background';
-import {Aside} from '@/app/containers/aside/Aside';
+import { Text } from '@/app/components/ui/text/Text';
+import { Card } from '@/app/components/ui';
 
 export default function Home() {
-  return (
-      <main className={styles.main}>
-         Dupa Dupa Dupa
-      </main>
-  )
+    return (
+        <>
+            <main className={styles.main}>
+                <div className={styles.card}>
+                <Card>
+                    <div className={styles.card}>
+                        <Text tag={'h1'} bold color={'secondary'}>Wojciech Palacz</Text>
+                        <Text tag={'p'} bold size={'xl'}>Frontend Developer</Text>
+                    </div>
+                </Card>
+                </div>
+            </main>
+            <div className={styles.background}/>
+        </>
+    )
 }

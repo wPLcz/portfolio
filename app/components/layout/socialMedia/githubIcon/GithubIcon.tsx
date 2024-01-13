@@ -1,14 +1,13 @@
-import styles from '@/app/components/socialIcons/socialIcons.module.scss';
+import styles from '@/app/components/layout/socialMedia/socialMedia.module.scss';
 import { FC } from 'react';
 import classNames from 'classnames';
 
 interface GithubIconProps {
-    isHoverActive: boolean;
 }
 
-export const GithubIcon: FC<GithubIconProps> = ({isHoverActive}) => {
+export const GithubIcon: FC<GithubIconProps> = ({}) => {
     return (
-        <svg className={classNames(styles.socialIcon, {[styles.active]: isHoverActive})} viewBox="0 0 256 250" id="github" version="1.1"
+        <svg className={classNames(styles.socialIcon)} viewBox="0 0 256 250" id="github" version="1.1"
              xmlns="http://www.w3.org/2000/svg"
              xmlnsXlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
             <g>

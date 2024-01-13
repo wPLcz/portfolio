@@ -1,0 +1,16 @@
+//@mixin textStyle($size, $font-weight, $line-height, $margin: 0) {
+//  font-size: #{$size}rem;
+//  font-weight: #{$font-weight};
+//  margin-bottom: #{$margin}rem;
+//  line-height: #{$line-height}rem;
+//
+//  @content;
+//}
+
+@mixin setTypography($size, $font-weight, $line-height, $margin: 0) {
+  font-size: #{$size}rem;
+  font-weight: #{$font-weight};
+  margin-bottom: #{$margin}rem;
+  line-height: #{$line-height}rem;
+  @content;
+}

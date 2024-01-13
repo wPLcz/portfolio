@@ -1,0 +1,17 @@
+@use '@/app/styles/colors';
+@use '@/app/styles/size';
+
+.container {
+  padding: 1.5rem 3rem;
+  display: grid;
+
+  border-radius: size.$radius;
+  border: 1 solid colors.$primary;
+  background-color: colors.$background;
+  box-shadow:
+          0 4px 8px rgba(colors.$background, 0.1),
+          0 8px 16px rgba(colors.$background, 0.2),
+          0 16px 24px rgba(colors.$background, 0.3),
+          0 24px 32px rgba(colors.$background, 0.4);
+  background-blend-mode: color-burn;
+}

@@ -2,51 +2,52 @@
 import debounce from 'debounce';
 import { FC, useEffect, useState } from 'react';
 import styles from './Aside.module.scss';
-import { Logo } from '../../components/logo/Logo';
-import { LinkedInIcon } from '@/app/components/socialIcons/linkedinIcon/LinkedInIcon';
-import { GithubIcon } from '@/app/components/socialIcons/githubIcon/GithubIcon';
-import { FacebookIcon } from '@/app/components/socialIcons/facebookIcon/FacebookIcon';
+import { Logo } from '@/app/components/layout/logo/Logo';
+import { LinkedInIcon } from '@/app/components/layout/socialMedia/linkedinIcon/LinkedInIcon';
+import { GithubIcon } from '@/app/components/layout/socialMedia/githubIcon/GithubIcon';
+import { FacebookIcon } from '@/app/components/layout/socialMedia/facebookIcon/FacebookIcon';
 import { ListItem } from '@/app/containers/aside/Aside.types';
+import { Link } from '@/app/components/ui/link/Link';
 
 export const menuListItems: ListItem[] = [
     {
         label: 'home',
         href: '/',
+        isDownloadable: false,
+    },
+    {
+        label: 'skills',
+        href: '/skills',
+        isDownloadable: false,
     },
     {
         label: 'cv',
-        href: '/cv',
+        href: 'wojciech_palacz.pdf',
+        isDownloadable: true,
     },
     {
         label: 'contact',
         href: '/contact',
+        isDownloadable: false,
     }
 ]
 
 
 export const Aside: FC = () => {
-    const [isHoverActive, setIsHoverActive] = useState(false);
-
-    const changeHoverState = (value: boolean) => debounce(() => setIsHoverActive(value), 250);
-
-    useEffect(() => {
-        console.log(isHoverActive);
-    }, [isHoverActive]);
-
     return (
         <aside className={styles.aside}>
             <div className={styles.logo}>
-                <Logo isHoverActive={isHoverActive}/>
+                <Logo/>
             </div>
             <div className={styles.socialIcons}>
                 <a href="https://github.com/wPLcz" className={styles.socialIconAnchor}>
-                    <GithubIcon isHoverActive={isHoverActive}/>
+                    <GithubIcon/>
                 </a>
                 <a href="https://www.facebook.com/wojciech.k.palacz/" className={styles.socialIconAnchor}>
-                    <LinkedInIcon isHoverActive={isHoverActive}/>
+                    <LinkedInIcon/>
                 </a>
                 <a href="https://www.linkedin.com/in/wojciech-palacz/" className={styles.socialIconAnchor}>
-                    <FacebookIcon isHoverActive={isHoverActive}/>
+                    <FacebookIcon/>
                 </a>
             </div>
 
@@ -56,13 +57,13 @@ export const Aside: FC = () => {
                         const {href, label} = item;
                         return (
                             <li className={styles.asideListItem} key={item.href + index}>
-                                <a
-                                    className={styles.asideLink}
+                                <Link
                                     href={href}
-                                    onMouseEnter={() => setIsHoverActive(true)}
-                                    onMouseLeave={() => setIsHoverActive(false)}>
-                                    {label}
-                                </a>
+                                    label={label}
+                                    size={'xlarge'}
+                                    target={item.isDownloadable ? '_blank' : undefined}
+                                    underline
+                                />
                             </li>
                         )
                     })}

@@ -1,0 +1,26 @@
+//@use '@/app/styles/config/screen';
+@use '../config/screen';
+
+@mixin respond-to-small {
+  @media only screen and (min-width: screen.$small) {
+    @content;
+  }
+}
+
+@mixin respond-to-medium {
+  @media only screen and (min-width: screen.$medium) {
+    @content;
+  }
+}
+
+@mixin respond-to-large {
+  @media only screen and (min-width: screen.$large) {
+    @content;
+  }
+}
+
+@mixin respond-to-xlarge {
+  @media only screen and (min-width: screen.$xl) {
+    @content;
+  }
+}

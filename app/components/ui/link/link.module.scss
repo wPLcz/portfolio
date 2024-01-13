@@ -1,0 +1,46 @@
+@use '@/app/styles/colors';
+@use '@/app/styles/size';
+
+.link {
+  color: colors.$secondary;
+  position: relative;
+  text-underline: none;
+
+  &.medium {
+    font-size: 1rem;
+  }
+
+  &.large {
+    font-size: 1.5rem;
+  }
+
+  &.xlarge {
+    font-size: 2rem;
+  }
+}
+
+.underline {
+  transition: color .3s ease-in-out;
+
+  &:hover {
+    color: colors.$tertiary;
+  }
+
+  &::before {
+    content: '';
+    background-color: colors.$background;
+    position: absolute;
+    left: 0;
+    bottom: 3px;
+    width: 100%;
+    height: 8px;
+    z-index: -1;
+    transition: all .3s ease-in-out;
+  }
+
+  &:hover::before {
+    bottom: 0;
+    height: 100%;
+  }
+
+}

@@ -18,13 +18,12 @@
     "debounce": "^2.0.0",
     "gsap": "^3.12.4",
     "next": "14.0.4",
+    "node-modules": "^0.0.1",
     "react": "^18",
-    "react-dom": "^18",
-    "sass": "^1.69.7"
+    "react-dom": "^18"
   },
   "devDependencies": {
     "@types/debounce": "^1.2.4",
-    "@types/gsap": "^3.0.0",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",

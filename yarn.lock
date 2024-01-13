@@ -1283,13 +1283,6 @@
   resolved "https://registry.npmjs.org/@types/debounce/-/debounce-1.2.4.tgz"
   integrity sha512-jBqiORIzKDOToaF63Fm//haOCHuwQuLa2202RK4MozpA6lh93eCBc+/8+wZn5OzjJt3ySdc+74SXWXB55Ewtyw==
 
-"@types/gsap@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.npmjs.org/@types/gsap/-/gsap-3.0.0.tgz"
-  integrity sha512-BbWLi4WRHGze4C8NV7U7yRevuBFiPkPZZyGa0rryanvh/9HPUFXTNBXsGQxJZJq7Ix7j4RXMYodP3s+OsqCErg==
-  dependencies:
-    gsap "*"
-
 "@types/json5@^0.0.29":
   version "0.0.29"
   resolved "https://registry.npmjs.org/@types/json5/-/json5-0.0.29.tgz"
@@ -2478,7 +2471,7 @@ graphemer@^1.4.0:
   resolved "https://registry.npmjs.org/graphemer/-/graphemer-1.4.0.tgz"
   integrity sha512-EtKwoO6kxCL9WO5xipiHTZlSzBm7WLT627TqC/uVRd0HKmq8NXyebnNYxDoBi7wt8eTWrUrKXCOVaFq9x1kgag==
 
-gsap@*, gsap@^3.12.4:
+gsap@^3.12.4:
   version "3.12.4"
   resolved "https://registry.npmjs.org/gsap/-/gsap-3.12.4.tgz"
   integrity sha512-1ByAq8dD0W4aBZ/JArgaQvc0gyUfkGkP8mgAQa0qZGdpOKlSOhOf+WNXjoLimKaKG3Z4Iu6DKZtnyszqQeyqWQ==
@@ -3001,6 +2994,11 @@ no-case@^3.0.4:
     lower-case "^2.0.2"
     tslib "^2.0.3"
 
+node-modules@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.npmjs.org/node-modules/-/node-modules-0.0.1.tgz"
+  integrity sha512-310npB29YYezKgvU5Ei3z90rc95b0PA7vNF2Pw54MgcbnMd+t5c4LbmjP0/uDyapXb5vXcFuWEOIHtemQXN9Gw==
+
 node-releases@^2.0.14:
   version "2.0.14"
   resolved "https://registry.npmjs.org/node-releases/-/node-releases-2.0.14.tgz"
@@ -3363,7 +3361,7 @@ safe-regex-test@^1.0.0:
     get-intrinsic "^1.1.3"
     is-regex "^1.1.4"
 
-sass@^1.3.0, sass@^1.69.7:
+sass@^1.3.0:
   version "1.69.7"
   resolved "https://registry.npmjs.org/sass/-/sass-1.69.7.tgz"
   integrity sha512-rzj2soDeZ8wtE2egyLXgOOHQvaC2iosZrkF6v3EUG+tBwEvhqUCzm0VP3k9gHF9LXbSrRhT5SksoI56Iw8NPnQ==
