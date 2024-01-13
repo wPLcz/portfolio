@@ -1,4 +1,4 @@
-import styles from './styles/page.module.scss'
+import styles from './page.module.scss'
 import { Text } from '@/app/components/ui/text/Text';
 import { Card } from '@/app/components/ui';
 

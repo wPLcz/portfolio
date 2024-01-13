@@ -3,10 +3,12 @@ const path = require('path');
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     sassOptions: {
-        includePaths: [__dirname, 'styles'],
+        includePaths: [path.join(__dirname, '@', '')],
+        // includePaths: [path.join(__dirname, 'app', '')],
     },
-    webpack(config, options) {
-        config.resolve.alias['@'] = path.join(__dirname, '');
+    webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
+        config.resolve.alias['@'] = path.join(__dirname, 'app');
+        // config.resolve.alias['@'] = path.join(__dirname);
         config.module.rules.push({
             test: /\.svg$/,
             use: ['@svgr/webpack']

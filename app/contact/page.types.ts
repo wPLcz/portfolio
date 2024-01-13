@@ -1,6 +1,11 @@
 export interface ContactPage {
     name: string;
-    email: string;
-    linkedin: string;
-    instagram: string;
+    email: Channel;
+    linkedin: Channel;
+    instagram: Channel;
+}
+
+export interface Channel {
+    channel: string;
+    value: string;
 }

@@ -1,12 +1,12 @@
 'use client'
 import debounce from 'debounce';
 import { FC, useEffect, useState } from 'react';
-import styles from './Aside.module.scss';
+import styles from './aside.module.scss';
 import { Logo } from '@/app/components/layout/logo/Logo';
 import { LinkedInIcon } from '@/app/components/layout/socialMedia/linkedinIcon/LinkedInIcon';
 import { GithubIcon } from '@/app/components/layout/socialMedia/githubIcon/GithubIcon';
 import { FacebookIcon } from '@/app/components/layout/socialMedia/facebookIcon/FacebookIcon';
-import { ListItem } from '@/app/containers/aside/Aside.types';
+import { ListItem } from '@/app/containers/aside/aside.types';
 import { Link } from '@/app/components/ui/link/Link';
 
 export const menuListItems: ListItem[] = [

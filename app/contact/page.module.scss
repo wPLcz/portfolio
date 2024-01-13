@@ -1,5 +1,54 @@
-@import '@/app/styles/colors';
+@use '@/app/styles/config/zindex';
+@use '@/app/styles/mixins/responsive';
 
 .container {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-columns: 1fr 1fr 4fr 3fr;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-areas: '. . . .'
+  'name . linkedin .'
+  '. . email .'
+  '. . instagram .';
+  justify-items: end;
+  align-items: center;
+  z-index: zindex.$page;
+}
 
+.name {
+  grid-area: name;
+}
+
+.email {
+  grid-area: email;
+
+}
+
+.linkedin {
+  grid-area: linkedin;
+}
+
+.instagram {
+  grid-area: instagram;
+}
+
+
+.background {
+  background-position: center;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../assets/images/contact.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: zindex.$background;
+
+  @include responsive.respond-from-medium {
+    background-position: right;
+  }
 }

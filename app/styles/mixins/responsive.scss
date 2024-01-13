@@ -1,25 +1,25 @@
 //@use '@/app/styles/config/screen';
 @use '../config/screen';
 
-@mixin respond-to-small {
+@mixin respond-from-small {
   @media only screen and (min-width: screen.$small) {
     @content;
   }
 }
 
-@mixin respond-to-medium {
+@mixin respond-from-medium {
   @media only screen and (min-width: screen.$medium) {
     @content;
   }
 }
 
-@mixin respond-to-large {
+@mixin respond-from-large {
   @media only screen and (min-width: screen.$large) {
     @content;
   }
 }
 
-@mixin respond-to-xlarge {
+@mixin respond-from-xlarge {
   @media only screen and (min-width: screen.$xl) {
     @content;
   }

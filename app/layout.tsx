@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import './styles/global.scss'
-import styles from '@/app/styles/layout.module.scss';
-import { Aside } from '@/app/containers/aside/Aside';
+import '@/app/styles/global.scss'
+import styles from '@/app/layout.module.scss';
+import { Aside } from '@/app/containers/aside/aside';
 import { Background } from '@/app/components/layout/background/Background';
 import { Video } from '@/app/components/layout/video/Video';
 import { SpeedInsights } from '@vercel/speed-insights/next'
