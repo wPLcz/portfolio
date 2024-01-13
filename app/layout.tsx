@@ -5,7 +5,7 @@ import styles from '@/app/styles/layout.module.scss';
 import {Aside} from '@/app/containers/aside/Aside';
 import {Background} from '@/app/components/layout/background/Background';
 import {Video} from '@/app/components/layout/video/Video';
-
+import { SpeedInsights } from "@vercel/speed-insights/next"
 const inter = Inter({subsets: ['latin']})
 
 export const metadata: Metadata = {
@@ -21,6 +21,7 @@ export default function RootLayout({
     return (
         <html lang="en">
         <body className={inter.className}>
+        <SpeedInsights/>
         <div className={styles.page}>
             {children}
             <Aside/>

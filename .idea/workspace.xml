@@ -5,26 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4aa3fe4-fdc8-4576-af18-affba2f2c501" name="Changes" comment="fixing before deployment">
-      <change afterPath="$PROJECT_DIR$/app/components/ui/card/Card.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/ui/card/card.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/ui/card/card.types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/ui/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/ui/link/Link.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/ui/link/link.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/ui/link/link.types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/ui/text/Text.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/ui/text/text.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/ui/text/text.types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/contact/contactDetails.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/contact/page.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/contact/page.types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/styles/config/screen.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/styles/config/zindex.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/styles/fonts/fonts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/styles/mixins/responsive.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/styles/mixins/typography.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/styles/size.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/wojciech_palacz.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../portfolio_2018/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../portfolio_2018/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../portfolio_2018/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/.idea/misc.xml" afterDir="false" />
@@ -105,32 +85,9 @@
       <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/utilities/Fonts.js" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/utilities/Fonts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../portfolio_2018/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/background/Background.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/layout/background/Background.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/background/Background.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/layout/background/Background.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/logo/Logo.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/layout/logo/Logo.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/logo/Logo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/layout/logo/Logo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/logo/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/layout/logo/config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/noise/Noise.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/layout/noise/Noise.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/noise/Noise.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/layout/noise/Noise.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/socialIcons/facebookIcon/FacebookIcon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/layout/socialMedia/facebookIcon/FacebookIcon.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/socialIcons/githubIcon/GithubIcon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/layout/socialMedia/githubIcon/GithubIcon.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/socialIcons/linkedinIcon/LinkedInIcon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/layout/socialMedia/linkedinIcon/LinkedInIcon.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/socialIcons/socialIcons.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/layout/socialMedia/socialMedia.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/video/Video.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/layout/video/Video.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/video/Video.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/layout/video/Video.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/video/Video.types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/layout/video/Video.types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/contact/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/contact/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/containers/aside/Aside.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/containers/aside/Aside.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/containers/aside/Aside.types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/containers/aside/Aside.types.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/styles/colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/colors.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/styles/page.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/page.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -196,6 +153,7 @@
       <map>
         <entry key="com.intellij.reactbuddy.reactComponents" value="false" />
         <entry key="com.intellij.reactbuddy.reactInspector" value="false" />
+        <entry key="com.intellij.reactbuddy.storybook" value="false" />
       </map>
     </option>
   </component>
@@ -278,6 +236,7 @@
       <workItem from="1705003439772" duration="1843000" />
       <workItem from="1705064829999" duration="1416000" />
       <workItem from="1705068499954" duration="20662000" />
+      <workItem from="1705128628577" duration="720000" />
     </task>
     <task id="LOCAL-00001" summary="some project amendmends as well as svg fixes">
       <option name="closed" value="true" />
