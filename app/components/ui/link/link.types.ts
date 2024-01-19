@@ -7,5 +7,7 @@ export interface LinkProps {
     href: string;
     size: 'medium' | 'large' | 'xlarge';
     target?: HTMLAttributeAnchorTarget;
+    isDisabled?: boolean;
+    isActive?: boolean;
     underline?: boolean;
 }

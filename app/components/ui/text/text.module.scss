@@ -26,22 +26,22 @@
 }
 
 .h1 {
-  @include typography.setTypography(5, 600, 1.6, 2);
+  @include typography.setTypography(5, 600, 4, 2);
   font-family: 'BebasNeueBold', sans-serif;
 }
 
 .h2 {
-  @include typography.setTypography(4, 500, 1.6, 1.5);
+  @include typography.setTypography(4, 500, 3.5, 1.5);
   font-family: 'BebasNeueBold', sans-serif;
 }
 
 .h3 {
-  @include typography.setTypography(3, 500, 1.6, 1);
+  @include typography.setTypography(3, 500, 3, 1);
   font-family: 'BebasNeueBold', sans-serif;
 }
 
 .h4 {
-  @include typography.setTypography(2, 500, 1.6, 1);
+  @include typography.setTypography(2, 500, 2.5, 1);
   font-family: 'BebasNeueBold', sans-serif;
 }
 
@@ -51,9 +51,8 @@
   padding: 0;
   text-transform: capitalize;
   font-family: 'BebasNeueRegular', sans-serif;
-  text-wrap: nowrap;
+  word-wrap: break-word;
   color: colors.$primary;
-
 
   &.bold {
     font-weight: 600;
@@ -63,8 +62,13 @@
     font-weight: 600;
   }
 
+  &.noWrap {
+    word-wrap: normal;
+    text-wrap: avoid;
+  }
+
   &.default {
-    color: colors.$font
+    color: colors.$text_primary;
   }
 
   &.primary {
@@ -77,5 +81,9 @@
 
   &.tertiary {
     color: colors.$tertiary;
+  }
+
+  &.highlight {
+    color: colors.$highlight;
   }
 }

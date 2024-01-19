@@ -1,0 +1,96 @@
+@use '@/styles/colors';
+@use '@/styles/config/zindex';
+@use '@/styles/mixins/responsive';
+
+.aside {
+  display: none;
+  grid-area: aside;
+
+  @include responsive.respond-from-medium {
+    z-index: zindex.$aside;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    grid-template-rows: auto auto 2fr;
+    background-color: transparent;
+    width: auto;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-top: none;
+    border-right: 2px solid colors.$border;
+    overflow: hidden;
+  }
+}
+
+
+.logo {
+  display: grid;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.navigation {
+  display: grid;
+  align-items: end;
+}
+
+.asideList {
+  //margin: 0 0.5rem;
+  padding: 0;
+  list-style-type: none;
+}
+
+.asideListItem {
+  position: relative;
+  margin: 1.5rem 0;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 0 1rem;
+}
+
+.active {
+  view-transition-name: activeNavTab;
+
+  &::after {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 3rem;
+    bottom: -9px;
+    right: 0;
+    //border-radius: 8px;
+    background: colors.$background;
+    box-shadow: 0 4px 8px rgba(colors.$background, 0.1),
+    0 8px 16px rgba(colors.$background, 0.2),
+    0 16px 24px rgba(colors.$background, 0.3),
+    0 24px 32px rgba(colors.$background, 0.4);
+    z-index: -1;
+  }
+}
+
+.socialIcons {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+  align-items: start;
+}
+
+.socialIconAnchor {
+  display: grid;
+}
+
+.asideLink {
+  color: colors.$primary;
+  box-shadow: inset 0 0 0 0 colors.$secondary;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+
+  &:hover {
+    box-shadow: inset 100px 0 0 0 colors.$secondary;
+    color: white;
+  }
+}

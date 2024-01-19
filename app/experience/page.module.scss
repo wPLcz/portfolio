@@ -1,0 +1,51 @@
+@use '@/app/styles/config/zindex';
+@use '@/app/styles/mixins/responsive';
+
+.container {
+  margin: 3rem 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  grid-gap: 3rem;
+  align-items: center;
+  z-index: zindex.$page;
+}
+
+.companies {
+  margin-bottom: 5rem;
+  padding: 0 0.5rem;
+  width: 100%;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr;
+  grid-gap: 3rem;
+
+  @include responsive.respond-from-medium {
+    margin: 0;
+    padding: 0;
+    width: 90%;
+  }
+
+  @include responsive.respond-from-large {
+    width: 80%;
+  }
+}
+
+.background {
+  background-position: center;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  width: 50%;
+  height: 50%;
+  background-image: url('../assets/images/experience.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: zindex.$background;
+
+  @include responsive.respond-from-medium {
+    background-position: right;
+  }
+}

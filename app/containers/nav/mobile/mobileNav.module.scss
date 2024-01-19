@@ -1,0 +1,36 @@
+@use '@/styles/colors';
+@use '@/styles/config/zindex';
+@use '@/styles/mixins/responsive';
+
+.aside {
+  grid-area: aside;
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-around;
+  grid-gap: 9rem;
+  border-top: 2px solid colors.$border;
+  height: 5rem;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  z-index: zindex.$aside;
+  background-color: colors.$background;
+  overflow: hidden;
+
+  @include responsive.respond-from-medium {
+    display: none;
+  }
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  display: grid;
+  justify-content: center;
+  align-items: baseline;
+}
+

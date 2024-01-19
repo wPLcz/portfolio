@@ -1,8 +1,13 @@
+@use '@/app/styles/mixins/responsive';
+
 .page {
   min-height: 100vh;
   display: grid;
   width: 100vw;
-  grid-template-columns: auto 3fr;
-  grid-template-areas:
-    "aside content"
+  //grid-template-columns: 1fr;
+
+  @include responsive.respond-from-medium {
+    padding: 0 0 0 12rem;
+    grid-template-columns: 1fr;
+  }
 }

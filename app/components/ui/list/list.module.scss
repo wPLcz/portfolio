@@ -1,0 +1,23 @@
+@use '@/app/styles/colors';
+@use '@/app/styles/size';
+@use '@/app/styles/mixins/responsive';
+
+.container {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  @include responsive.respond-from-medium {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @include responsive.respond-from-large {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  @include responsive.respond-from-xlarge {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

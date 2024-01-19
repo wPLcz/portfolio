@@ -17,9 +17,13 @@
   &.xlarge {
     font-size: 2rem;
   }
+
+  .disabled {
+
+  }
 }
 
-.underline {
+.underline:not(.active) {
   transition: color .3s ease-in-out;
 
   &:hover {
@@ -37,6 +41,11 @@
     z-index: -1;
     transition: all .3s ease-in-out;
   }
+
+  &.active  {
+
+  }
+
 
   &:hover::before {
     bottom: 0;

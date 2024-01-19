@@ -1,0 +1,67 @@
+@use '@/app/styles/colors';
+@use '@/app/styles/size';
+@use '@/app/styles/mixins/responsive';
+
+.container {
+  padding: 1rem;
+  display: grid;
+  border-radius: size.$radius;
+  border: 1 solid colors.$primary;
+  background-color: colors.$background;
+  box-shadow: 0 4px 8px rgba(colors.$background, 0.1),
+  0 8px 16px rgba(colors.$background, 0.2),
+  0 16px 24px rgba(colors.$background, 0.3),
+  0 24px 32px rgba(colors.$background, 0.4);
+}
+
+.title {
+  width: 100%;
+  display: grid;
+  align-items: baseline;
+  justify-content: left;
+  grid-gap: 0.5rem;
+  grid-auto-flow: column;
+}
+
+.background {
+  margin: 1rem 0;
+}
+
+
+.backgroundText {
+  word-wrap: break-word;
+  text-wrap: pretty;
+}
+
+.skills {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  @include responsive.respond-from-medium {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @include responsive.respond-from-large {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  @include responsive.respond-from-xlarge {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.results {
+  margin: 1rem 0;
+}
+
+.resultsList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1rem;
+}
