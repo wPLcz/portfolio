@@ -31,18 +31,18 @@
   align-items: baseline;
 }
 
-.navigation {
+.navigationWrapper {
   display: grid;
   align-items: end;
 }
 
-.asideList {
+.nav {
   //margin: 0 0.5rem;
   padding: 0;
   list-style-type: none;
 }
 
-.asideListItem {
+.navItem {
   position: relative;
   margin: 1.5rem 0;
   text-transform: uppercase;
