@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4aa3fe4-fdc8-4576-af18-affba2f2c501" name="Changes" comment="removing double cuotes">
-      <change afterPath="$PROJECT_DIR$/app/styles/config/time.scss" afterDir="false" />
+    <list default="true" id="b4aa3fe4-fdc8-4576-af18-affba2f2c501" name="Changes" comment="adding animation">
       <change beforePath="$PROJECT_DIR$/../portfolio_2018/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../portfolio_2018/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../portfolio_2018/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/.idea/misc.xml" afterDir="false" />
@@ -86,12 +85,7 @@
       <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/utilities/Fonts.js" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/utilities/Fonts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../portfolio_2018/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/layout/menu/menu.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/layout/menu/menu.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/containers/nav/desktop/desktopNav.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/containers/nav/desktop/desktopNav.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/containers/nav/desktop/desktopNav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/containers/nav/desktop/desktopNav.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/containers/nav/mobile/mobileNav.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/containers/nav/mobile/mobileNav.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/containers/nav/mobile/mobileNav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/containers/nav/mobile/mobileNav.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -263,7 +257,7 @@
       <workItem from="1705128628577" duration="18615000" />
       <workItem from="1705226541336" duration="14816000" />
       <workItem from="1705310961220" duration="2598000" />
-      <workItem from="1705492961744" duration="46260000" />
+      <workItem from="1705492961744" duration="46374000" />
     </task>
     <task id="LOCAL-00001" summary="some project amendmends as well as svg fixes">
       <option name="closed" value="true" />
@@ -321,7 +315,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705134407286</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="adding animation">
+      <option name="closed" value="true" />
+      <created>1705694395168</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1705694395168</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -344,7 +346,8 @@
     <MESSAGE value="removing header component" />
     <MESSAGE value="fixing before deployment" />
     <MESSAGE value="removing double cuotes" />
-    <option name="LAST_COMMIT_MESSAGE" value="removing double cuotes" />
+    <MESSAGE value="adding animation" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding animation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
