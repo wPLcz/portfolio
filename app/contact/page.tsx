@@ -1,9 +1,9 @@
-import Image from 'next/image'
+import { Text } from '@/app/components/ui/text/Text';
 import { contactDetails } from '@/app/contact/contactDetails';
+import styles from '@/app/contact/page.module.scss'
 import { Card } from '@/components/ui/card/card';
 import { Link } from '@/components/ui/link/link';
-import { Text } from '@/app/components/ui/text/Text';
-import styles from '@/app/contact/page.module.scss'
+import Image from 'next/image'
 
 export default function Page() {
   return (
@@ -16,7 +16,13 @@ export default function Page() {
                 <Image src={'/images/gmail.png'} alt={'gmail icon'} width={75} height={75}/>
               </div>
               <Text className={styles.channel} size={'l'}>{contactDetails.email.channel}</Text>
-              <Text className={styles.value} size={'xl'} color={'secondary'}>{contactDetails.email.value}</Text>
+              <Text className={styles.value} size={'xl'} color={'secondary'}>
+                <Link
+                  size='medium'
+                  type='mailto'
+                  href={contactDetails.email.value}
+                  label={contactDetails.email.value}/>
+              </Text>
             </div>
           </Card>
         </div>
@@ -27,7 +33,7 @@ export default function Page() {
                 <Image src={'/images/linkedin.png'} alt={'gmail icon'} width={75} height={75}/>
               </div>
               <Text className={styles.channel} size={'l'}>{contactDetails.linkedin.channel}</Text>
-              <Text className={styles.value} size={'xl'} color={'secondary'}>
+              <Text className={styles.value} size={'l'} color={'secondary'}>
                 <Link
                   size={'medium'}
                   href={contactDetails.linkedin.value}
@@ -43,7 +49,7 @@ export default function Page() {
                 <Image src={'/images/instagram.png'} alt={'gmail icon'} width={75} height={75}/>
               </div>
               <Text className={styles.channel} size={'l'}>{contactDetails.instagram.channel}</Text>
-              <Text className={styles.value} size={'xl'} color={'secondary'}>
+              <Text className={styles.value} size={'l'} color={'secondary'}>
                 <Link
                   size={'medium'}
                   href={contactDetails.instagram.value}

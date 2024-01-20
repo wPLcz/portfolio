@@ -3,8 +3,6 @@
 .page {
   min-height: 100vh;
   display: grid;
-  width: 100vw;
-  //grid-template-columns: 1fr;
 
   @include responsive.respond-from-medium {
     padding: 0 0 0 12rem;

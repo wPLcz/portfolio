@@ -7,14 +7,6 @@
   height: 100%;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(4, 1fr);
-  //grid-template-columns: repeat(4, 1fr);
-  //grid-template-rows: repeat(4, 1fr);
-  //grid-template-areas:
-  //'name name . .'
-  //'. . linkedin linkedin'
-  //'. email email .'
-  //'instagram instagram . .';
-  justify-items: end;
   align-items: center;
   z-index: zindex.$page;
 }
@@ -24,13 +16,18 @@
 }
 
 .content {
+  padding: 1rem 0;
   display: grid;
   grid-gap: 1rem;
   align-items: center;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: auto 1fr;
   grid-template-rows: repeat(2, 1fr);
   grid-template-areas: 'image channel'
   'image value';
+
+  @include responsive.respond-from-medium {
+    padding: 0;
+  }
 }
 
 .image {

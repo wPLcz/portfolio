@@ -13,8 +13,6 @@
 
 .companies {
   margin-bottom: 5rem;
-  padding: 0 0.5rem;
-  width: 100%;
   display: grid;
   justify-items: center;
   grid-template-columns: 1fr;
@@ -37,8 +35,8 @@
   right: 0;
   left: 0;
   top: 0;
-  width: 50%;
-  height: 50%;
+  width: 100%;
+  height: 100%;
   background-image: url('../assets/images/experience.png');
   background-repeat: no-repeat;
   background-size: cover;

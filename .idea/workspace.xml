@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4aa3fe4-fdc8-4576-af18-affba2f2c501" name="Changes" comment="removing code comented">
+      <change afterPath="$PROJECT_DIR$/app/styles/animations/fadeInUp.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../portfolio_2018/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../portfolio_2018/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../portfolio_2018/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/.idea/misc.xml" afterDir="false" />
@@ -85,6 +86,19 @@
       <change beforePath="$PROJECT_DIR$/../portfolio_2018/src/utilities/Fonts.js" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/src/utilities/Fonts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../portfolio_2018/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/ui/card/card.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/ui/card/card.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/ui/link/link.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/ui/link/link.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/ui/link/link.types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/ui/link/link.types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/contact/page.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/contact/page.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/contact/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/contact/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/containers/nav/mobile/mobileNav.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/containers/nav/mobile/mobileNav.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/containers/nav/mobile/mobileNav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/containers/nav/mobile/mobileNav.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/experience/page.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/experience/page.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/styles/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/global.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +155,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/wojciechpalacz/Repositories/portfolio_2024/app/styles/config",
+    "last_opened_file_path": "/Users/wojciechpalacz/Repositories/portfolio_2024/app/styles/animations",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
@@ -171,11 +185,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/styles/animations" />
       <recent name="$PROJECT_DIR$/app/styles/config" />
       <recent name="$PROJECT_DIR$/app/containers/mobile" />
       <recent name="$PROJECT_DIR$/app/containers" />
       <recent name="$PROJECT_DIR$/app/components/layout" />
-      <recent name="$PROJECT_DIR$/app/components/ui/listItem" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/images" />
@@ -229,9 +243,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.dev" />
+        <item itemvalue="npm.build" />
         <item itemvalue="npm.lint" />
         <item itemvalue="npm.lint:fix" />
-        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +270,8 @@
       <workItem from="1705128628577" duration="18615000" />
       <workItem from="1705226541336" duration="14816000" />
       <workItem from="1705310961220" duration="2598000" />
-      <workItem from="1705492961744" duration="47413000" />
+      <workItem from="1705492961744" duration="48320000" />
+      <workItem from="1705733753105" duration="10273000" />
     </task>
     <task id="LOCAL-00001" summary="some project amendmends as well as svg fixes">
       <option name="closed" value="true" />
@@ -330,7 +345,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705694456044</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="removing code comented">
+      <option name="closed" value="true" />
+      <created>1705699886098</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1705699886098</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

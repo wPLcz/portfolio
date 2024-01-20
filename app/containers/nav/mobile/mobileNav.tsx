@@ -25,6 +25,26 @@ export const MobileNav: FC = () => {
     )
   });
 
+  if (!isOpen) {
+    return (
+      <aside
+        className={classNames(
+          styles.aside,
+          styles.closed
+        )}>
+        <div className={styles.main}>
+          <div className={styles.logo}>
+            <Logo/>
+          </div>
+
+          <div className={styles.menu}>
+            <Menu
+              isOpen={isOpen} toggle={(value) => setIsOpen(value)}/>
+          </div>
+        </div>
+      </aside>
+    )
+  }
   return (
     <aside
       className={classNames(
@@ -43,8 +63,7 @@ export const MobileNav: FC = () => {
           <FacebookIcon/>
         </a>
       </div>
-      )
-
+      
       <nav>
         <ul className={styles.nav}>
           {menuListItems.map((item, index) => {

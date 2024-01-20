@@ -3,18 +3,18 @@
 @use '@/app/styles/mixins/responsive';
 
 .container {
+  width: 100%;
   display: grid;
-  padding: 0 0.5rem;
-  border-radius: size.$radius;
   border: 1 solid colors.$primary;
-  background-color: colors.$background;
   box-shadow: 0 4px 8px rgba(colors.$background, 0.1),
   0 8px 16px rgba(colors.$background, 0.2),
   0 16px 24px rgba(colors.$background, 0.3),
   0 24px 32px rgba(colors.$background, 0.4);
-  background-blend-mode: color-burn;
 
   @include responsive.respond-from-medium {
+    background-color: colors.$background;
+    border-radius: size.$radius;
+    width: 100%;
     padding: 1.5rem 3rem;
   }
 }

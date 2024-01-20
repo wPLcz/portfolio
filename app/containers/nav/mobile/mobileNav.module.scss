@@ -2,10 +2,11 @@
 @use '@/styles/config/zindex';
 @use '@/styles/config/time';
 @use '@/styles/mixins/responsive';
+@use '@/styles/animations/fadeInUp';
 
 .aside {
-  grid-area: aside;;
-  grid-gap: 9rem;
+  grid-area: aside;
+  grid-gap: 2rem;
   border-top: 2px solid colors.$border;
   height: 5rem;
   width: 100%;
@@ -15,37 +16,42 @@
   z-index: zindex.$aside;
   background-color: colors.$background;
   overflow: hidden;
-  transition: height time.$normal ease-in-out;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
 
   @include responsive.respond-from-medium {
-    display: none;
+    display: none !important;
   }
 }
 
+.closed {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 1fr;
+}
+
 .open {
+  transition: height time.$normal ease-in-out;
   height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 1fr;
 
   .socialIcons, .navItem {
-    visibility: visible;
-    opacity: 1;
+    animation: fadeInUp ease-in-out forwards;
+    animation-delay: time.$slow;
+  }
+
+  .main {
+    margin-bottom: 0.5rem;
+    transform: translateY(1rem);
   }
 }
 
 .socialIcons {
-  position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
   display: flex;
   justify-content: space-around;
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity time.$fast ease-in-out time.$normal;
 }
+
 
 .nav {
   margin: 0 0 0 4rem;
@@ -53,6 +59,9 @@
   grid-template-columns: 1rem;
   grid-gap: 3rem;
   list-style-type: none;
+
+  //visibility: hidden; // Initial visibility state
+  //opacity: 0; // Initial opacity
 }
 
 .navItem {
@@ -62,16 +71,15 @@
   cursor: pointer;
   padding: 0 1rem;
 
-  // ANIMATION ON START
-  visibility: hidden;
-  opacity: 0;
+  //visibility: hidden; // Initial visibility state
+  //opacity: 0; // Initial opacity
 }
 
 @for $i from 0 through 4 {
-  .navItem#{$i} {
-    transition: opacity time.$fast ease-in-out;
-    transition-delay: 1s + $i * 350ms;
-    transform: translateY(1rem);
+  .open .navItem#{$i} {
+    //visibility: hidden; // Initial visibility state
+    //opacity: 0; // Initial opacity
+    animation-delay: time.$slow + $i * 350ms; // Adjust timing as needed
   }
 }
 
