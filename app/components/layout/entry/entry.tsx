@@ -1,3 +1,4 @@
+'use client'
 import {
   ref1_points_base,
   ref1_points_expanded,
@@ -8,11 +9,12 @@ import {
   ref4_points_base,
   ref4_points_expanded
 } from '@/app/components/layout/logo/config';
+import { SESSION_STORAGE } from '@/app/const/sessionStorage.ts';
 import classNames from 'classnames';
 import gsap from 'gsap';
 import { FC, useEffect, useRef } from 'react';
 import '@/app/styles/colors.scss';
-import styles from './logo.module.scss';
+import styles from './entry.module.scss';
 
 
 //TODO setting types for arguments
@@ -33,10 +35,7 @@ const animateReference = (ref: any, expandedPoints: any) => {
   );
 };
 
-interface LogoProps {
-}
-
-export const Logo: FC<LogoProps> = ({}) => {
+export const Entry: FC = ({}) => {
   const ref2 = useRef(null);
   const ref1 = useRef(null);
   const ref3 = useRef(null);
@@ -61,8 +60,24 @@ export const Logo: FC<LogoProps> = ({}) => {
     );
   });
 
+
+  useEffect(
+    () => {
+      setTimeout(
+        () => {
+          sessionStorage.setItem(
+            SESSION_STORAGE.FOOT_PRINT,
+            'true'
+          )
+        },
+        5000
+      )
+    },
+    []
+  );
+
   return (
-    <>
+    <div className={styles.page}>
       <svg
         className={classNames(styles.logo)}
         version='1.1'
@@ -90,6 +105,6 @@ export const Logo: FC<LogoProps> = ({}) => {
             points={ref4_points_base}/>
         </g>
       </svg>
-    </>
+    </div>
   );
 };

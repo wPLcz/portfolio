@@ -1,57 +1,55 @@
-import {
-  CompanyExperience
-} from '@/components/ui/companyExperienceCard/companyExperienceCard.types.ts';
+import { CompanyExperience } from '@/components/ui/companyExperienceCard/companyExperienceCard.types.ts';
 
 export const companies: CompanyExperience[] = [
   {
-    id: 'investcore_5',
-    company: 'Investcore',
+    id: 'hycom_5',
+    company: 'Hycom S.A.',
     time: {
       label: 'Work period:',
-      from: '2020.04',
-      to: '2020.11'
+      from: '2021.10',
+      to: '2023.11'
     },
     skills: {
       label: 'Skills used',
       list: [
         {
-          id: 'hycom_skills_1',
+          id: 'hycom_skill_1',
           label: 'SCSS'
         },
         {
-          id: 'hycom_skills_2',
+          id: 'hycom_skill_2',
           label: 'Javascript'
         },
         {
-          id: 'hycom_skills_3',
+          id: 'hycom_skill_3',
           label: 'Typescript'
         },
         {
-          id: 'hycom_skills_4',
+          id: 'hycom_skill_4',
           label: 'React'
         },
         {
-          id: 'hycom_skills_5',
+          id: 'hycom_skill_5',
           label: 'Next.js'
         },
         {
-          id: 'hycom_skills_6',
+          id: 'hycom_skill_6',
           label: 'Xstate'
         },
         {
-          id: 'hycom_skills_7',
+          id: 'hycom_skill_7',
           label: 'Strapi CMS'
         },
         {
-          id: 'hycom_skills_8',
+          id: 'hycom_skill_8',
           label: 'Nest.js'
         },
         {
-          id: 'hycom_skills_9',
+          id: 'hycom_skill_9',
           label: 'NextAuth'
         },
         {
-          id: 'hycom_skills_8',
+          id: 'hycom_skill_8',
           label: 'GraphQL'
         }
       ]
@@ -73,8 +71,8 @@ export const companies: CompanyExperience[] = [
     company: 'Investcore',
     time: {
       label: 'Work period:',
-      from: '2020.04',
-      to: '2020.11'
+      from: '2020.10',
+      to: '2021.09'
     },
     skills: {
       label: 'Skills used',
@@ -133,7 +131,7 @@ export const companies: CompanyExperience[] = [
   },
   {
     id: 'mbank_4',
-    company: 'mBank',
+    company: 'mBank S.A.',
     time: {
       label: 'Work period:',
       from: '2020.04',

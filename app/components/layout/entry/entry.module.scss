@@ -1,0 +1,21 @@
+@use '@/app/styles/colors';
+@use '@/app/styles/mixins/responsive';
+
+.logo {
+  margin: auto;
+  width: 75px;
+  height: 75px;
+  top: 10%;
+  cursor: none;
+  fill: colors.$primary;
+
+  @include responsive.respond-from-small {
+    width: 85px;
+    height: 85px;
+  }
+
+  @include responsive.respond-from-medium {
+    width: 125px;
+    height: 125px;
+  }
+}

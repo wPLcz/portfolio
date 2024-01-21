@@ -1,0 +1,1 @@
+export enum SESSION_STORAGE { FOOT_PRINT = 'foot_print'}

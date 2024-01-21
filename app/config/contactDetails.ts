@@ -1,4 +1,4 @@
-import { ContactPage } from '@/app/contact/page.types';
+import { ContactPage } from '@/app/contact/page.types.ts';
 
 export const contactDetails: ContactPage = {
   name: 'Wojciech Palacz',

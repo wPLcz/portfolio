@@ -14,6 +14,7 @@
     'wip';
 
   @include responsive.respond-from-medium {
+    max-height: 100vh;
     grid-template-columns: 1fr 4fr 5fr;
     grid-template-areas: '. . .'
     '. card-area card-area'

@@ -1,6 +1,7 @@
 @use '@/app/styles/mixins/responsive';
 
 .page {
+  padding: 0 0.25rem;
   min-height: 100vh;
   display: grid;
 

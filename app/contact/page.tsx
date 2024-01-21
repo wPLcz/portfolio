@@ -1,5 +1,5 @@
 import { Text } from '@/app/components/ui/text/Text';
-import { contactDetails } from '@/app/contact/contactDetails';
+import { contactDetails } from '@/app/config/contactDetails.ts';
 import styles from '@/app/contact/page.module.scss'
 import { Card } from '@/components/ui/card/card';
 import { Link } from '@/components/ui/link/link';
