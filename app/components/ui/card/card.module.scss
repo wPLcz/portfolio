@@ -1,20 +1,23 @@
-@use '@/app/styles/colors';
+@use '@/styles/colors/dark';
 @use '@/app/styles/size';
 @use '@/app/styles/mixins/responsive';
+@use '@/styles/mixins/transitions';
 
 .container {
   width: 100%;
   display: grid;
-  border: 1 solid colors.$primary;
-  box-shadow: 0 4px 8px rgba(colors.$background, 0.1),
-  0 8px 16px rgba(colors.$background, 0.2),
-  0 16px 24px rgba(colors.$background, 0.3),
-  0 24px 32px rgba(colors.$background, 0.4);
+  border: 1 solid var(--primary);
+  box-shadow: 0 4px 8px rgba(var(--background), 0.1),
+  0 8px 16px rgba(var(--background), 0.2),
+  0 16px 24px rgba(var(--background), 0.3),
+  0 24px 32px rgba(var(--background), 0.4);
 
   @include responsive.respond-from-medium {
-    background-color: colors.$background;
+    background-color: var(--background);
     border-radius: size.$radius;
     width: 100%;
     padding: 1.5rem 3rem;
+
+    @include transitions.themeSwitchTransition(background-color);
   }
 }

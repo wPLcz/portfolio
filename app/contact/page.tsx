@@ -42,6 +42,22 @@ export default function Page() {
             </div>
           </Card>
         </div>
+        <div className={styles.linkedin}>
+          <Card>
+            <div className={styles.content}>
+              <div className={styles.image}>
+                <Image src={'/images/facebook.png'} alt={'gmail icon'} width={75} height={75}/>
+              </div>
+              <Text className={styles.channel} size={'l'}>{contactDetails.facebook.channel}</Text>
+              <Text className={styles.value} size={'l'} color={'secondary'}>
+                <Link
+                  size={'medium'}
+                  href={contactDetails.facebook.value}
+                  label={contactDetails.name}/>
+              </Text>
+            </div>
+          </Card>
+        </div>
         <div className={styles.instagram}>
           <Card>
             <div className={styles.content}>

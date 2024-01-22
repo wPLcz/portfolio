@@ -1,4 +1,4 @@
-@use '@/app/styles/colors';
+@use '@/styles/colors/dark';
 @use '@/app/styles/mixins/responsive';
 
 .logo {
@@ -7,7 +7,7 @@
   height: 75px;
   top: 10%;
   cursor: none;
-  fill: colors.$primary;
+  fill: var(--primary);
 
   @include responsive.respond-from-small {
     width: 85px;

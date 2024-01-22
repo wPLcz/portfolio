@@ -1,4 +1,4 @@
-@use '@/styles/colors';
+@use '@/styles/colors/dark';
 @use '@/styles/config/zindex';
 @use '@/styles/mixins/responsive';
 
@@ -19,7 +19,7 @@
     top: 0;
     left: 0;
     border-top: none;
-    border-right: 2px solid colors.$border;
+    border-right: 2px solid var(--border);
     overflow: hidden;
   }
 }
@@ -49,6 +49,13 @@
   padding: 0 1rem;
 }
 
+.switch {
+  width: 100%;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
 .active {
   view-transition-name: activeNavTab;
 
@@ -60,11 +67,11 @@
     height: 3rem;
     bottom: -9px;
     right: 0;
-    background: colors.$background;
-    box-shadow: 0 4px 8px rgba(colors.$background, 0.1),
-    0 8px 16px rgba(colors.$background, 0.2),
-    0 16px 24px rgba(colors.$background, 0.3),
-    0 24px 32px rgba(colors.$background, 0.4);
+    background: var(--background);
+    box-shadow: 0 4px 8px rgba(var(--background), 0.1),
+    0 8px 16px rgba(var(--background), 0.2),
+    0 16px 24px rgba(var(--background), 0.3),
+    0 24px 32px rgba(var(--background), 0.4);
     z-index: -1;
   }
 }
@@ -81,14 +88,14 @@
 }
 
 .asideLink {
-  color: colors.$primary;
-  box-shadow: inset 0 0 0 0 colors.$secondary;
+  color: var(--primary);
+  box-shadow: inset 0 0 0 0 var(--secondary);
   margin: 0 -.25rem;
   padding: 0 .25rem;
   transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 
   &:hover {
-    box-shadow: inset 100px 0 0 0 colors.$secondary;
+    box-shadow: inset 100px 0 0 0 var(--secondary);
     color: white;
   }
 }

@@ -11,7 +11,7 @@ import {
 import classNames from 'classnames';
 import gsap from 'gsap';
 import { FC, useEffect, useRef } from 'react';
-import '@/app/styles/colors.scss';
+import '@/styles/colors/dark.scss';
 import styles from './logo.module.scss';
 
 

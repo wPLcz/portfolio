@@ -1,0 +1,5 @@
+@use '../config/time';
+
+@mixin themeSwitchTransition($property) {
+  transition: #{$property} ease-in time.$normal;
+}

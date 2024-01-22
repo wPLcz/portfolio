@@ -2,11 +2,11 @@ import { Background } from '@/app/components/layout/background/Background';
 import { Video } from '@/app/components/layout/video/Video';
 import { DesktopNav } from '@/app/containers/nav/desktop/desktopNav.tsx';
 import { MobileNav } from '@/app/containers/nav/mobile/mobileNav.tsx';
+import '@/app/styles/global.scss'
 import styles from '@/app/layout.module.scss';
 import { SpeedInsights } from '@vercel/speed-insights/next'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import '@/app/styles/global.scss'
 
 const inter = Inter({ subsets: ['latin'] })
 

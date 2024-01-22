@@ -1,8 +1,10 @@
-@use '@/app/styles/colors';
+@use '@/styles/colors/dark';
 @use '@/app/styles/size';
+@use '@/styles/mixins/transitions';
+@use '@/app/styles/config/time';
 
 .link {
-  color: colors.$secondary;
+  color: var(--secondary);
   position: relative;
   text-underline: none;
 
@@ -24,28 +26,25 @@
 }
 
 .underline:not(.active) {
-  transition: color .3s ease-in-out;
+  transition: color time.$normal ease-in-out;
+  @include transitions.themeSwitchTransition(color);
 
   &:hover {
-    color: colors.$tertiary;
+    color: var(--tertiary);
   }
 
   &::before {
     content: '';
-    background-color: colors.$background;
+    background-color: var(--background);
     position: absolute;
     left: 0;
-    bottom: 3px;
+    bottom: 2px;
     width: 100%;
     height: 8px;
     z-index: -1;
-    transition: all .3s ease-in-out;
+
+    transition: bottom time.$ultra_fast ease-in-out, height time.$ultra_fast ease-in-out, background-color time.$normal ease-in-out;
   }
-
-  &.active  {
-
-  }
-
 
   &:hover::before {
     bottom: 0;

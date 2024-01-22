@@ -1,20 +1,17 @@
-// MAIN THEME
-//$primary: #C867FF;
+// MAIN THEME for Dark (main) Mode
 $primary: #0E70F5;
-//$secondary: #009CFF;
 $secondary: #009CFF;
 $tertiary: #3EB5FF;
 $highlight: #FF63AA;
-$background: rgb(23,24,27);
+$background: rgb(23, 24, 27);
 $border: rgba(153, 153, 153, 0.4);
 
 // ACCENT
+$decoration: #F37D8C;
+
 //$decoration_light: #3EFC34;
 $text_light: #EACDC2;
 $text_dark: #9907E7;
-$decoration_light: #F37D8C;
-$decoration_dark: #B75D69;
-
 
 
 //TYPOGRAPHY
@@ -22,5 +19,5 @@ $text_primary: #A0A0A0;
 $text_secondary: #2D2D2A;
 
 // SUPPORT COLORS
-$white: #000;
+$white: #FFF;
 $black: #000;

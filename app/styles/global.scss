@@ -1,3 +1,6 @@
+@use '@/styles/colors/dark';
+@use '@/styles/colors/light';
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -7,27 +10,40 @@
 html,
 body {
   max-width: 100vw;
-  //overflow-x: hidden;
-  //overflow-x: auto;
 }
 
-//body {
-//  color: rgb(var(--foreground-rgb));
-//  background: linear-gradient(
-//                  to bottom,
-//                  transparent,
-//                  rgb(var(--background-end-rgb))
-//  )
-//  rgb(var(--background-start-rgb));
-//}
+:root {
+  --theme: 'dark';
+  --primary: #{dark.$primary};
+  --secondary: #{dark.$secondary};
+  --tertiary: #{dark.$tertiary};
+  --highlight: #{dark.$highlight};
+  --decoration: #{dark.$decoration};
+  --background: #{dark.$background};
+  --border: #{dark.$border};
+  --text-primary: #{dark.$text_primary};
+  --text-secondary: #{dark.$text_secondary};
+  --black: #{dark.$black};
+  --white: #{dark.$white};
+}
+
+/* Dark theme overrides */
+[data-theme='light'] {
+  --primary: #{light.$primary};
+  --secondary: #{light.$secondary};
+  --tertiary: #{light.$tertiary};
+  --highlight: #{light.$highlight};
+  --decoration: #{light.$decoration};
+  --background: #{light.$background};
+  --border: #{light.$border};
+  --text-primary: #{light.$text_primary};
+  --text-secondary: #{light.$text_secondary};
+  --black: #{light.$black};
+  --white: #{light.$white};
+}
+
 
 a {
   color: inherit;
   text-decoration: none;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
 }

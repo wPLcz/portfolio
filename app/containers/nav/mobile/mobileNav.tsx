@@ -1,10 +1,10 @@
 'use client'
+import { contactDetails } from '@/app/config/contactDetails.ts';
 import { menuListItems } from '@/app/config/menuListItems.ts';
 import { Logo } from '@/components/layout/logo/logo.tsx';
 import { Menu } from '@/components/layout/menu/menu.tsx';
-import { FacebookIcon } from '@/components/layout/socialMedia/facebookIcon/FacebookIcon.tsx';
-import { GithubIcon } from '@/components/layout/socialMedia/githubIcon/GithubIcon.tsx';
-import { LinkedInIcon } from '@/components/layout/socialMedia/linkedinIcon/LinkedInIcon.tsx';
+import { CodewarsIcon } from '@/components/layout/socialMedia/codewarsIcon/codewarsIcon.tsx';
+import { GithubIcon } from '@/components/layout/socialMedia/githubIcon/githubIcon.tsx';
 import { Link } from '@/components/ui/link/link.tsx';
 import classNames from 'classnames';
 import { usePathname } from 'next/navigation';
@@ -53,17 +53,14 @@ export const MobileNav: FC = () => {
       )}>
 
       <div className={styles.socialIcons}>
-        <a href='https://github.com/wPLcz' className={styles.socialIconAnchor}>
+        <a href={contactDetails.github.value} className={styles.socialIconAnchor}>
           <GithubIcon/>
         </a>
-        <a href='https://www.facebook.com/wojciech.k.palacz/' className={styles.socialIconAnchor}>
-          <LinkedInIcon/>
-        </a>
-        <a href='https://www.linkedin.com/in/wojciech-palacz/' className={styles.socialIconAnchor}>
-          <FacebookIcon/>
+        <a href={contactDetails.codewars.value} className={styles.socialIconAnchor}>
+          <CodewarsIcon/>
         </a>
       </div>
-      
+
       <nav>
         <ul className={styles.nav}>
           {menuListItems.map((item, index) => {

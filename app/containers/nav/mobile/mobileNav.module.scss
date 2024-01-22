@@ -1,4 +1,4 @@
-@use '@/styles/colors';
+@use '@/styles/colors/dark';
 @use '@/styles/config/zindex';
 @use '@/styles/config/time';
 @use '@/styles/mixins/responsive';
@@ -7,14 +7,14 @@
 .aside {
   grid-area: aside;
   grid-gap: 2rem;
-  border-top: 2px solid colors.$border;
+  border-top: 2px solid var(--border);
   height: 5rem;
   width: 100%;
   bottom: 0;
   left: 0;
   position: fixed;
   z-index: zindex.$aside;
-  background-color: colors.$background;
+  background-color: var(--background);
   overflow: hidden;
 
   @include responsive.respond-from-medium {

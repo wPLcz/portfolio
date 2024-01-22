@@ -1,5 +1,6 @@
-@use '@/app/styles/colors';
+@use '@/styles/colors/dark';
 @use '@/app/styles/size';
+@use '@/styles/config/time';
 
 .switch {
   position: relative;
@@ -21,7 +22,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ccc;
+  background-color: var(--white);
   transition: .4s;
 }
 
@@ -32,20 +33,22 @@
   width: 26px;
   left: 4px;
   bottom: 4px;
-  background-color: white;
+  background-color: var(--black);
   transition: .4s;
 }
 
 .input:checked + .slider {
-  background-color: #2196F3;
+  background-color: var(--background);
 }
 
 .input:focus + .slider {
-  box-shadow: 0 0 1px #2196F3;
+  box-shadow: 0 0 1px var(--primary);
 }
 
 .input:checked + .slider:before {
-  transform: translateX(26px);
+  background-color: var(--white);
+  transform: translateX(24px);
+
 }
 
 /* Rounded sliders */

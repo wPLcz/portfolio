@@ -10,6 +10,18 @@ export const contactDetails: ContactPage = {
     channel: 'linkedin',
     value: 'https://www.linkedin.com/in/wojciech-palacz/'
   },
+  facebook: {
+    channel: 'facebook',
+    value: 'https://www.facebook.com/wojciech.k.palacz/'
+  },
+  codewars: {
+    channel: 'codewars',
+    value: 'https://www.codewars.com/users/wPLcz'
+  },
+  github: {
+    channel: 'github',
+    value: 'https://github.com/wPLcz'
+  },
   email: {
     channel: 'email',
     value: 'wojciechpalacz@gmail.com'

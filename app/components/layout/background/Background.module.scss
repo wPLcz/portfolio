@@ -1,4 +1,6 @@
 @use '@/app/styles/config/zindex';
+@use '@/styles/config/time';
+@use '@/styles/mixins/transitions';
 
 // NOISE BACKGROUND
 .container {
@@ -8,8 +10,11 @@
   top: 0;
   left: 0;
   overflow: hidden;
+  background-color: var(--background);
   z-index: zindex.$noise;
   opacity: 0.5;
+
+  @include transitions.themeSwitchTransition(background-color);
 }
 
 .image {

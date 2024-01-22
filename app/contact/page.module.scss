@@ -1,14 +1,20 @@
 @use '@/app/styles/config/zindex';
 @use '@/app/styles/mixins/responsive';
+@use '@/app/styles/mixins/background';
 
 .container {
   display: grid;
   width: 100%;
   height: 100%;
+  padding-bottom: 6rem;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(4, 1fr);
   align-items: center;
   z-index: zindex.$page;
+
+  @include responsive.respond-from-medium {
+    padding: 0;
+  }
 }
 
 .name {
@@ -42,32 +48,10 @@
   grid-area: value;
 }
 
-//.email {
-//  grid-area: email;
-//}
-//
-//.linkedin {
-//  grid-area: linkedin;
-//}
-//
-//.instagram {
-//  grid-area: instagram;
-//}
-
 .background {
-  background-position: center;
-  position: fixed;
-  right: 0;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
   background-image: url('../assets/images/contact.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  z-index: zindex.$background;
 
+  @include background.useBackgroundCommon;
   @include responsive.respond-from-medium {
     background-position: right;
   }

@@ -1,4 +1,4 @@
-@use '@/app/styles/colors';
+@use '@/styles/colors/dark';
 @use '@/app/styles/size';
 @use '@/app/styles/fonts/fonts';
 @use '@/app/styles/mixins/typography';
@@ -52,7 +52,7 @@
   text-transform: capitalize;
   font-family: 'BebasNeueRegular', sans-serif;
   word-wrap: break-word;
-  color: colors.$primary;
+  color: var(--primary);
 
   &.bold {
     font-weight: 600;
@@ -68,22 +68,22 @@
   }
 
   &.default {
-    color: colors.$text_primary;
+    color: var(--text-primary);
   }
 
   &.primary {
-    color: colors.$primary;
+    color: var(--primary);
   }
 
   &.secondary {
-    color: colors.$secondary;
+    color: var(--secondary);
   }
 
   &.tertiary {
-    color: colors.$tertiary;
+    color: var(--tertiary);
   }
 
   &.highlight {
-    color: colors.$highlight;
+    color: var(--highlight);
   }
 }

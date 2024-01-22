@@ -1,4 +1,4 @@
-@use '@/app/styles/colors';
+@use '@/styles/colors/dark';
 
 @keyframes pulse {
   0%, 100% {
@@ -15,18 +15,17 @@
   height: 50px;
   cursor: pointer;
   display: inline-block;
-  fill: colors.$secondary;
   transition: transform 0.3s ease-in-out;
 
   .circle {
     transition: fill 250ms ease-in-out, stroke 250ms ease-in-out;
     fill: transparent;
-    stroke: colors.$primary;
+    stroke: var(--primary);
   }
 
   .path {
     transition: fill 250ms ease-in-out;
-    fill: colors.$primary;
+    fill: var(--primary);
   }
 
   &:hover {
@@ -34,11 +33,11 @@
 
     .circle {
       fill: transparent;
-      stroke: colors.$secondary;
+      stroke: var(--secondary);
     }
 
     .path {
-      fill: colors.$secondary;
+      fill: var(--secondary);
     }
   }
 

@@ -13,7 +13,7 @@ import { SESSION_STORAGE } from '@/app/const/sessionStorage.ts';
 import classNames from 'classnames';
 import gsap from 'gsap';
 import { FC, useEffect, useRef } from 'react';
-import '@/app/styles/colors.scss';
+import '@/styles/colors/dark.scss';
 import styles from './entry.module.scss';
 
 

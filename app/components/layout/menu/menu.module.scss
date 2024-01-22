@@ -1,4 +1,4 @@
-@use '@/app/styles/colors';
+@use '@/styles/colors/dark';
 @use '@/app/styles/mixins/responsive';
 
 .svg {
@@ -7,10 +7,10 @@
   height: 40px;
   top: 10%;
   cursor: pointer;
-  fill: colors.$primary;
+  fill: var(--primary);
 
   .line {
     stroke-width: 4;
-    stroke: colors.$primary;
+    stroke: var(--primary);
   }
 }
