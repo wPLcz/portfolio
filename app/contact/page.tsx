@@ -75,7 +75,15 @@ export default function Page() {
           </Card>
         </div>
       </main>
-      <div className={styles.background}/>
+      <div className={styles.background}>
+        <Image
+          src='/images/contact.png'
+          alt='Background'
+          layout='fill'
+          objectFit='cover'
+          quality={100}
+        />
+      </div>
     </>
   )
 }

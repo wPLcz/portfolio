@@ -39,8 +39,6 @@
 }
 
 .background {
-  background-image: url('assets/images/w4.jpg');
-
   @include background.useBackgroundCommon;
   @include responsive.respond-from-medium {
     background-position: right;

@@ -1,6 +1,7 @@
 import { companies } from '@/app/config/companies.ts';
 import styles from '@/app/experience/page.module.scss'
 import { CompanyExperienceCard } from '@/components/ui/companyExperienceCard/companyExperienceCard.tsx';
+import Image from 'next/image';
 
 export default function Page() {
   return (
@@ -23,7 +24,15 @@ export default function Page() {
           }
         </div>
       </main>
-      <div className={styles.background}/>
+      <div className={styles.background}>
+        <Image
+          src='/images/experience.png'
+          alt='Background'
+          layout='fill'
+          objectFit='cover'
+          quality={100}
+        />
+      </div>
     </>
   )
 }

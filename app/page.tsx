@@ -1,6 +1,7 @@
-import styles from './page.module.scss'
-import { Text } from '@/app/components/ui/text/Text';
 import { Card } from '@/app/components/ui';
+import { Text } from '@/app/components/ui/text/Text';
+import Image from 'next/image';
+import styles from './page.module.scss'
 
 export default function Home() {
   return (
@@ -19,7 +20,15 @@ export default function Home() {
           <Text size='xl' color='secondary'>Work in progres</Text>
         </div>
       </main>
-      <div className={styles.background}/>
+      <div className={styles.background}>
+        <Image
+          src='/images/w4.jpg'
+          alt='Background'
+          layout='fill'
+          objectFit='cover'
+          quality={100}
+        />
+      </div>
     </>
   )
 }

@@ -49,8 +49,6 @@
 }
 
 .background {
-  background-image: url('../assets/images/contact.png');
-
   @include background.useBackgroundCommon;
   @include responsive.respond-from-medium {
     background-position: right;
