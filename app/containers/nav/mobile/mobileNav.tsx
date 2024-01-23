@@ -5,7 +5,7 @@ import { Logo } from '@/components/layout/logo/logo.tsx';
 import { Menu } from '@/components/layout/menu/menu.tsx';
 import { CodewarsIcon } from '@/components/layout/socialMedia/codewarsIcon/codewarsIcon.tsx';
 import { GithubIcon } from '@/components/layout/socialMedia/githubIcon/githubIcon.tsx';
-import { Link } from '@/components/ui/link/link.tsx';
+import { Anchor } from '@/components/ui/anchor/anchor.tsx';
 import classNames from 'classnames';
 import { usePathname } from 'next/navigation';
 import { FC, useEffect, useState } from 'react';
@@ -74,7 +74,7 @@ export const MobileNav: FC = () => {
                   { [styles.active]: isActive }
                 )}
                 key={item.href + index}>
-                <Link
+                <Anchor
                   href={href}
                   label={label}
                   size={'large'}

@@ -5,7 +5,7 @@ import { THEME } from '@/app/const/theme.ts';
 import { Logo } from '@/components/layout/logo/logo.tsx';
 import { CodewarsIcon } from '@/components/layout/socialMedia/codewarsIcon/codewarsIcon.tsx';
 import { GithubIcon } from '@/components/layout/socialMedia/githubIcon/githubIcon.tsx';
-import { Link } from '@/components/ui/link/link.tsx';
+import { Anchor } from '@/components/ui/anchor/anchor.tsx';
 import { Switch } from '@/components/ui/switch/switch.tsx';
 import classNames from 'classnames';
 import { usePathname } from 'next/navigation';
@@ -18,11 +18,6 @@ export const DesktopNav: FC = () => {
 
   useEffect(
     () => {
-      console.log(theme);
-      // document.documentElement.style.setProperty(
-      //   THEME.LABEL,
-      //   theme
-      // );
       document.documentElement.setAttribute(
         'data-theme',
         theme
@@ -58,7 +53,7 @@ export const DesktopNav: FC = () => {
                   { [styles.active]: isActive }
                 )}
                 key={item.href + index}>
-                <Link
+                <Anchor
                   href={href}
                   label={label}
                   size={'large'}

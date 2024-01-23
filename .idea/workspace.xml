@@ -4,46 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4aa3fe4-fdc8-4576-af18-affba2f2c501" name="Changes" comment="minor tweaks">
-      <change afterPath="$PROJECT_DIR$/app/assets/svg/codewars-svgrepo-com.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/const/theme.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/styles/colors/light.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/styles/mixins/background.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/styles/mixins/transitions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/facebook.png" afterDir="false" />
+    <list default="true" id="b4aa3fe4-fdc8-4576-af18-affba2f2c501" name="Changes" comment="light/dark mode implementation">
+      <change afterPath="$PROJECT_DIR$/public/particles.webm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/layout/background/Background.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/layout/background/Background.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/layout/entry/entry.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/layout/entry/entry.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/layout/entry/entry.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/layout/entry/entry.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/layout/logo/logo.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/layout/logo/logo.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/layout/logo/logo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/layout/logo/logo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/layout/menu/menu.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/layout/menu/menu.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/layout/socialMedia/facebookIcon/FacebookIcon.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/layout/socialMedia/githubIcon/GithubIcon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/layout/socialMedia/githubIcon/githubIcon.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/layout/socialMedia/linkedinIcon/LinkedInIcon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/layout/socialMedia/codewarsIcon/codewarsIcon.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/layout/socialMedia/socialMedia.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/layout/socialMedia/socialMedia.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/ui/card/card.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/ui/card/card.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/ui/companyExperienceCard/companyExperienceCard.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/ui/companyExperienceCard/companyExperienceCard.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/ui/link/link.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/ui/link/link.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/ui/listItem/listItem.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/ui/listItem/listItem.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/ui/switch/switch.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/ui/switch/switch.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/ui/switch/switch.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/ui/switch/switch.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/ui/switch/switch.types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/ui/switch/switch.types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/ui/text/text.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/ui/text/text.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/contactDetails.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/contactDetails.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/contact/page.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/contact/page.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/layout/video/Video.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/layout/video/Video.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/ui/companyExperienceCard/companyExperienceCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/ui/companyExperienceCard/companyExperienceCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/ui/link/link.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/ui/anchor/anchor.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/ui/link/link.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/ui/anchor/anchor.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/ui/link/link.types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/ui/anchor/anchor.types.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/contact/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/contact/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/contact/page.types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/contact/page.types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/containers/nav/desktop/desktopNav.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/containers/nav/desktop/desktopNav.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/containers/nav/desktop/desktopNav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/containers/nav/desktop/desktopNav.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/containers/nav/mobile/mobileNav.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/containers/nav/mobile/mobileNav.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/containers/nav/mobile/mobileNav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/containers/nav/mobile/mobileNav.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/experience/page.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/experience/page.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/styles/colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/colors/dark.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/styles/config/time.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/config/time.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/styles/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/global.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/styles/colors/light.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/colors/light.scss" afterDir="false" />
     </list>
     <list id="66d8d466-7b21-4fc4-a516-eb1d3adcc2bb" name="OLD" comment="">
       <change beforePath="$PROJECT_DIR$/../portfolio_2018/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/.gitignore" afterDir="false" />
@@ -175,31 +147,31 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/wojciechpalacz/Repositories/portfolio_2024/app/styles/animations",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "npm.build.executor": "Run",
-    "npm.dev.executor": "Run",
-    "npm.lint.executor": "Run",
-    "npm.lint:fix.executor": "Run",
-    "settings.editor.selected.configurable": "actions.on.save",
-    "settings.editor.splitter.proportion": "0.2515275",
-    "ts.external.directory.path": "/Users/wojciechpalacz/Repositories/portfolio_2024/node_modules/typescript/lib",
-    "typescript.add.unambiguous.imports.on.the.fly": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/wojciechpalacz/Repositories/portfolio_2024/app/styles/animations&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;npm.build.executor&quot;: &quot;Run&quot;,
+    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
+    &quot;npm.lint.executor&quot;: &quot;Run&quot;,
+    &quot;npm.lint:fix.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.2515275&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/wojciechpalacz/Repositories/portfolio_2024/node_modules/typescript/lib&quot;,
+    &quot;typescript.add.unambiguous.imports.on.the.fly&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -299,7 +271,8 @@
       <workItem from="1705310961220" duration="2598000" />
       <workItem from="1705492961744" duration="48320000" />
       <workItem from="1705733753105" duration="10983000" />
-      <workItem from="1705832946010" duration="18906000" />
+      <workItem from="1705832946010" duration="20188000" />
+      <workItem from="1706002559538" duration="4754000" />
     </task>
     <task id="LOCAL-00001" summary="some project amendmends as well as svg fixes">
       <option name="closed" value="true" />
@@ -397,7 +370,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705855672247</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="light/dark mode implementation">
+      <option name="closed" value="true" />
+      <created>1705936556172</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1705936556172</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -424,7 +405,8 @@
     <MESSAGE value="removing code comented" />
     <MESSAGE value="bugfixing" />
     <MESSAGE value="minor tweaks" />
-    <option name="LAST_COMMIT_MESSAGE" value="minor tweaks" />
+    <MESSAGE value="light/dark mode implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="light/dark mode implementation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

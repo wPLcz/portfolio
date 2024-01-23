@@ -1,8 +1,8 @@
 import { Text } from '@/app/components/ui/text/Text';
 import { contactDetails } from '@/app/config/contactDetails.ts';
 import styles from '@/app/contact/page.module.scss'
+import { Anchor } from '@/components/ui/anchor/anchor.tsx';
 import { Card } from '@/components/ui/card/card';
-import { Link } from '@/components/ui/link/link';
 import Image from 'next/image'
 
 export default function Page() {
@@ -17,7 +17,7 @@ export default function Page() {
               </div>
               <Text className={styles.channel} size={'l'}>{contactDetails.email.channel}</Text>
               <Text className={styles.value} size={'xl'} color={'secondary'}>
-                <Link
+                <Anchor
                   size='medium'
                   type='mailto'
                   href={contactDetails.email.value}
@@ -34,7 +34,7 @@ export default function Page() {
               </div>
               <Text className={styles.channel} size={'l'}>{contactDetails.linkedin.channel}</Text>
               <Text className={styles.value} size={'l'} color={'secondary'}>
-                <Link
+                <Anchor
                   size={'medium'}
                   href={contactDetails.linkedin.value}
                   label={contactDetails.name}/>
@@ -50,7 +50,7 @@ export default function Page() {
               </div>
               <Text className={styles.channel} size={'l'}>{contactDetails.facebook.channel}</Text>
               <Text className={styles.value} size={'l'} color={'secondary'}>
-                <Link
+                <Anchor
                   size={'medium'}
                   href={contactDetails.facebook.value}
                   label={contactDetails.name}/>
@@ -66,7 +66,7 @@ export default function Page() {
               </div>
               <Text className={styles.channel} size={'l'}>{contactDetails.instagram.channel}</Text>
               <Text className={styles.value} size={'l'} color={'secondary'}>
-                <Link
+                <Anchor
                   size={'medium'}
                   href={contactDetails.instagram.value}
                   label={contactDetails.name}/>

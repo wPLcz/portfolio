@@ -1,10 +1,10 @@
-import { CompanyExperienceCardProps } from '@/app/components/ui/companyExperienceCard/companyExperienceCard.types';
 import { Card } from '@/app/components/ui/card/card';
+import { CompanyExperienceCardProps } from '@/app/components/ui/companyExperienceCard/companyExperienceCard.types';
 import { Text } from '@/app/components/ui/text/Text';
+import { Anchor } from '@/components/ui/anchor/anchor.tsx';
 import { ListItem } from '@/components/ui/listItem/listItem';
 import { FC } from 'react';
 import styles from './companyExperienceCard.module.scss';
-import { Link } from '@/components/ui/link/link.tsx';
 
 export const CompanyExperienceCard: FC<CompanyExperienceCardProps> =
   ({
@@ -40,7 +40,8 @@ export const CompanyExperienceCard: FC<CompanyExperienceCardProps> =
                   <>
                     {
                       results.list.map((element) => {
-                        return <ListItem key={element.id} noDecoration><Link href={element.link || '#'} label={element.label} size={'medium'}/></ListItem>
+                        return <ListItem key={element.id} noDecoration><Anchor
+                          href={element.link || '#'} label={element.label} size={'medium'}/></ListItem>
                       })
                     }
                   </>
