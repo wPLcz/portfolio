@@ -15,14 +15,16 @@ export default function Page() {
               <div className={styles.image}>
                 <Image src={'/images/gmail.png'} alt={'gmail icon'} width={75} height={75}/>
               </div>
-              <Text className={styles.channel} size={'l'}>{contactDetails.email.channel}</Text>
-              <Text className={styles.value} size={'xl'} color={'secondary'}>
-                <Anchor
-                  size='medium'
-                  type='mailto'
-                  href={contactDetails.email.value}
-                  label={contactDetails.email.value}/>
-              </Text>
+              <div className={styles.text}>
+                <Text className={styles.channel} size={'l'}>{contactDetails.email.channel}</Text>
+                <Text className={styles.value} size={'xl'} color={'secondary'}>
+                  <Anchor
+                    size='medium'
+                    type='mailto'
+                    href={contactDetails.email.value}
+                    label={contactDetails.email.value}/>
+                </Text>
+              </div>
             </div>
           </Card>
         </div>
@@ -32,13 +34,16 @@ export default function Page() {
               <div className={styles.image}>
                 <Image src={'/images/linkedin.png'} alt={'gmail icon'} width={75} height={75}/>
               </div>
-              <Text className={styles.channel} size={'l'}>{contactDetails.linkedin.channel}</Text>
-              <Text className={styles.value} size={'l'} color={'secondary'}>
-                <Anchor
-                  size={'medium'}
-                  href={contactDetails.linkedin.value}
-                  label={contactDetails.name}/>
-              </Text>
+
+              <div className={styles.text}>
+                <Text className={styles.channel} size={'l'}>{contactDetails.linkedin.channel}</Text>
+                <Text className={styles.value} size={'l'} color={'secondary'}>
+                  <Anchor
+                    size={'medium'}
+                    href={contactDetails.linkedin.value}
+                    label={contactDetails.name}/>
+                </Text>
+              </div>
             </div>
           </Card>
         </div>
@@ -48,13 +53,16 @@ export default function Page() {
               <div className={styles.image}>
                 <Image src={'/images/facebook.png'} alt={'gmail icon'} width={75} height={75}/>
               </div>
-              <Text className={styles.channel} size={'l'}>{contactDetails.facebook.channel}</Text>
-              <Text className={styles.value} size={'l'} color={'secondary'}>
-                <Anchor
-                  size={'medium'}
-                  href={contactDetails.facebook.value}
-                  label={contactDetails.name}/>
-              </Text>
+
+              <div className={styles.text}>
+                <Text className={styles.channel} size={'l'}>{contactDetails.facebook.channel}</Text>
+                <Text className={styles.value} size={'l'} color={'secondary'}>
+                  <Anchor
+                    size={'medium'}
+                    href={contactDetails.facebook.value}
+                    label={contactDetails.name}/>
+                </Text>
+              </div>
             </div>
           </Card>
         </div>
@@ -64,13 +72,16 @@ export default function Page() {
               <div className={styles.image}>
                 <Image src={'/images/instagram.png'} alt={'gmail icon'} width={75} height={75}/>
               </div>
-              <Text className={styles.channel} size={'l'}>{contactDetails.instagram.channel}</Text>
-              <Text className={styles.value} size={'l'} color={'secondary'}>
-                <Anchor
-                  size={'medium'}
-                  href={contactDetails.instagram.value}
-                  label={contactDetails.name}/>
-              </Text>
+
+              <div className={styles.text}>
+                <Text className={styles.channel} size={'l'}>{contactDetails.instagram.channel}</Text>
+                <Text className={styles.value} size={'l'} color={'secondary'}>
+                  <Anchor
+                    size={'medium'}
+                    href={contactDetails.instagram.value}
+                    label={contactDetails.name}/>
+                </Text>
+              </div>
             </div>
           </Card>
         </div>

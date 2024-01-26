@@ -27,25 +27,18 @@
   grid-gap: 1rem;
   align-items: center;
   grid-template-columns: auto 1fr;
-  grid-template-rows: repeat(2, 1fr);
-  grid-template-areas: 'image channel'
-  'image value';
+  grid-template-rows: 1fr;
 
   @include responsive.respond-from-medium {
     padding: 0;
   }
 }
 
-.image {
-  grid-area: image;
-}
-
-.channel {
-  grid-area: channel;
-}
-
-.value {
-  grid-area: value;
+.text {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-content: left;
 }
 
 .background {

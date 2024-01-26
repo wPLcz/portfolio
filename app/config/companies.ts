@@ -46,10 +46,14 @@ export const companies: CompanyExperience[] = [
         },
         {
           id: 'hycom_skill_9',
+          label: 'Formik & Yup'
+        },
+        {
+          id: 'hycom_skill_10',
           label: 'NextAuth'
         },
         {
-          id: 'hycom_skill_8',
+          id: 'hycom_skill_11',
           label: 'GraphQL'
         }
       ]
@@ -119,7 +123,7 @@ export const companies: CompanyExperience[] = [
         },
         {
           id: 'investcore_skill_11',
-          label: 'Formik'
+          label: 'Formik & Yup'
         },
         {
           id: 'investcore_skill_12',
