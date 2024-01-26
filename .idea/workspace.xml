@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4aa3fe4-fdc8-4576-af18-affba2f2c501" name="Changes" comment="optimization tweaks">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/ui/card/card.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/ui/card/card.module.scss" afterDir="false" />
+    <list default="true" id="b4aa3fe4-fdc8-4576-af18-affba2f2c501" name="Changes" comment="adding colorful animated borders">
       <change beforePath="$PROJECT_DIR$/app/components/ui/card/card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/ui/card/card.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/companies.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/companies.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/contact/page.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/contact/page.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/contact/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/contact/page.tsx" afterDir="false" />
     </list>
     <list id="66d8d466-7b21-4fc4-a516-eb1d3adcc2bb" name="OLD" comment="">
       <change beforePath="$PROJECT_DIR$/../portfolio_2018/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/.gitignore" afterDir="false" />
@@ -192,7 +187,7 @@
       <recent name="$PROJECT_DIR$/app/assets/images" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.dev">
+  <component name="RunManager" selected="npm.build">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -235,9 +230,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.dev" />
         <item itemvalue="npm.build" />
         <item itemvalue="npm.lint" />
+        <item itemvalue="npm.dev" />
         <item itemvalue="npm.lint:fix" />
       </list>
     </recent_temporary>
@@ -269,7 +264,7 @@
       <workItem from="1705832946010" duration="20188000" />
       <workItem from="1706002559538" duration="8266000" />
       <workItem from="1706032774861" duration="10758000" />
-      <workItem from="1706090655505" duration="1796000" />
+      <workItem from="1706090655505" duration="2467000" />
     </task>
     <task id="LOCAL-00001" summary="some project amendmends as well as svg fixes">
       <option name="closed" value="true" />
@@ -399,7 +394,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706028129800</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="adding colorful animated borders">
+      <option name="closed" value="true" />
+      <created>1706254269641</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1706254269641</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -428,7 +431,8 @@
     <MESSAGE value="minor tweaks" />
     <MESSAGE value="light/dark mode implementation" />
     <MESSAGE value="optimization tweaks" />
-    <option name="LAST_COMMIT_MESSAGE" value="optimization tweaks" />
+    <MESSAGE value="adding colorful animated borders" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding colorful animated borders" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
