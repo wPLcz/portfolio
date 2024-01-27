@@ -7,7 +7,9 @@ export const Switch: FC<SwitchProps> = ({ checked, toggleSwitch }) => {
   return (
     // eslint-disable-next-line jsx-a11y/label-has-associated-control
     <label className={styles.switch} htmlFor='theme-switch'>
-      <input className={styles.input} id='theme-switch' type='checkbox' checked={checked} onChange={toggleSwitch}/>
+      <input
+        className={styles.input} id='theme-switch' type='checkbox' checked={checked} onChange={toggleSwitch}
+        aria-label='Theme Switch'/>
       <span className={styles.slider}/>
       <A11yText label={'day night theme switch'}/>
     </label>
