@@ -33,10 +33,10 @@ export const DesktopNav: FC = () => {
       </div>
 
       <div className={styles.socialIcons}>
-        <a href={contactDetails.github.value} className={styles.socialIconAnchor}>
+        <a href={contactDetails.github.value} className={styles.socialIconAnchor} aria-label='github'>
           <GithubIcon/>
         </a>
-        <a href={contactDetails.codewars.value} className={styles.socialIconAnchor}>
+        <a href={contactDetails.codewars.value} className={styles.socialIconAnchor} aria-label='codewars'>
           <CodewarsIcon/>
         </a>
       </div>

@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4aa3fe4-fdc8-4576-af18-affba2f2c501" name="Changes" comment="adding colorful animated borders">
-      <change beforePath="$PROJECT_DIR$/app/components/ui/card/card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/ui/card/card.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/ui/a11yText/a11yText.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/ui/a11yText/a11yText.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/ui/a11yText/a11yText.types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/layout/background/Background.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/layout/background/Background.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/layout/background/Background.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/layout/background/Background.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/ui/switch/switch.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/ui/switch/switch.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/containers/nav/desktop/desktopNav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/containers/nav/desktop/desktopNav.tsx" afterDir="false" />
     </list>
     <list id="66d8d466-7b21-4fc4-a516-eb1d3adcc2bb" name="OLD" comment="">
       <change beforePath="$PROJECT_DIR$/../portfolio_2018/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/.gitignore" afterDir="false" />
@@ -137,31 +144,31 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/wojciechpalacz/Repositories/portfolio_2024/public/images&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;npm.build.executor&quot;: &quot;Run&quot;,
-    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
-    &quot;npm.lint.executor&quot;: &quot;Run&quot;,
-    &quot;npm.lint:fix.executor&quot;: &quot;Run&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
-    &quot;settings.editor.splitter.proportion&quot;: &quot;0.2515275&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/wojciechpalacz/Repositories/portfolio_2024/node_modules/typescript/lib&quot;,
-    &quot;typescript.add.unambiguous.imports.on.the.fly&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/wojciechpalacz/Repositories/portfolio_2024/app/components/ui",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "npm.build.executor": "Run",
+    "npm.dev.executor": "Run",
+    "npm.lint.executor": "Run",
+    "npm.lint:fix.executor": "Run",
+    "settings.editor.selected.configurable": "actions.on.save",
+    "settings.editor.splitter.proportion": "0.2515275",
+    "ts.external.directory.path": "/Users/wojciechpalacz/Repositories/portfolio_2024/node_modules/typescript/lib",
+    "typescript.add.unambiguous.imports.on.the.fly": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -173,11 +180,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/components/ui" />
       <recent name="$PROJECT_DIR$/public/images" />
       <recent name="$PROJECT_DIR$/app/styles/animations" />
       <recent name="$PROJECT_DIR$/app/styles/colors" />
       <recent name="$PROJECT_DIR$/app/styles/mixins" />
-      <recent name="$PROJECT_DIR$/app/components/ui" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/images" />
@@ -187,7 +194,7 @@
       <recent name="$PROJECT_DIR$/app/assets/images" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.build">
+  <component name="RunManager" selected="npm.dev">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -230,9 +237,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.dev" />
         <item itemvalue="npm.build" />
         <item itemvalue="npm.lint" />
-        <item itemvalue="npm.dev" />
         <item itemvalue="npm.lint:fix" />
       </list>
     </recent_temporary>
@@ -264,7 +271,7 @@
       <workItem from="1705832946010" duration="20188000" />
       <workItem from="1706002559538" duration="8266000" />
       <workItem from="1706032774861" duration="10758000" />
-      <workItem from="1706090655505" duration="2467000" />
+      <workItem from="1706090655505" duration="5666000" />
     </task>
     <task id="LOCAL-00001" summary="some project amendmends as well as svg fixes">
       <option name="closed" value="true" />
@@ -402,7 +409,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706254269641</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="adding colorful animated borders">
+      <option name="closed" value="true" />
+      <created>1706254328979</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1706254328979</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
