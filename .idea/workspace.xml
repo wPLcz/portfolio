@@ -4,15 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4aa3fe4-fdc8-4576-af18-affba2f2c501" name="Changes" comment="adding colorful animated borders">
-      <change afterPath="$PROJECT_DIR$/app/components/ui/a11yText/a11yText.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/ui/a11yText/a11yText.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/ui/a11yText/a11yText.types.ts" afterDir="false" />
+    <list default="true" id="b4aa3fe4-fdc8-4576-af18-affba2f2c501" name="Changes" comment="a11y tweaks">
+      <change afterPath="$PROJECT_DIR$/app/components/layout/noise/noise.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/components/layout/noise/noise.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/styles/animations/spin.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/layout/background/Background.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/layout/background/Background.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/layout/background/Background.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/layout/background/Background.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/ui/switch/switch.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/ui/switch/switch.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/containers/nav/desktop/desktopNav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/containers/nav/desktop/desktopNav.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/layout/background/Background.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/layout/background/Background.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/layout/noise/Noise.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/layout/noise/Noise.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/ui/a11yText/a11yText.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/ui/a11yText/a11yText.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/ui/card/card.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/ui/card/card.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
     </list>
     <list id="66d8d466-7b21-4fc4-a516-eb1d3adcc2bb" name="OLD" comment="">
       <change beforePath="$PROJECT_DIR$/../portfolio_2018/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/.gitignore" afterDir="false" />
@@ -150,7 +153,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/wojciechpalacz/Repositories/portfolio_2024/app/components/ui",
+    "last_opened_file_path": "/Users/wojciechpalacz/Repositories/portfolio_2024/app/styles/animations",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
@@ -180,9 +183,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/styles/animations" />
       <recent name="$PROJECT_DIR$/app/components/ui" />
       <recent name="$PROJECT_DIR$/public/images" />
-      <recent name="$PROJECT_DIR$/app/styles/animations" />
       <recent name="$PROJECT_DIR$/app/styles/colors" />
       <recent name="$PROJECT_DIR$/app/styles/mixins" />
     </key>
@@ -271,7 +274,7 @@
       <workItem from="1705832946010" duration="20188000" />
       <workItem from="1706002559538" duration="8266000" />
       <workItem from="1706032774861" duration="10758000" />
-      <workItem from="1706090655505" duration="5666000" />
+      <workItem from="1706090655505" duration="7279000" />
     </task>
     <task id="LOCAL-00001" summary="some project amendmends as well as svg fixes">
       <option name="closed" value="true" />
@@ -417,7 +420,23 @@
       <option name="project" value="LOCAL" />
       <updated>1706254328979</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="a11y tweaks">
+      <option name="closed" value="true" />
+      <created>1706370099561</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1706370099561</updated>
+    </task>
+    <task id="LOCAL-00020" summary="a11y tweaks">
+      <option name="closed" value="true" />
+      <created>1706370189901</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1706370189901</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -447,7 +466,8 @@
     <MESSAGE value="light/dark mode implementation" />
     <MESSAGE value="optimization tweaks" />
     <MESSAGE value="adding colorful animated borders" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding colorful animated borders" />
+    <MESSAGE value="a11y tweaks" />
+    <option name="LAST_COMMIT_MESSAGE" value="a11y tweaks" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

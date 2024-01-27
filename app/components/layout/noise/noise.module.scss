@@ -1,0 +1,26 @@
+@use '@/app/styles/config/zindex';
+@use '@/styles/config/time';
+@use '@/styles/mixins/transitions';
+
+@keyframes b {
+  100% {
+    background-position: 50% 0, 60% 50%
+  }
+}
+
+// NOISE BACKGROUND
+.noise {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: zindex.$noise;
+  opacity: 0.2;
+
+  background: repeating-radial-gradient(circle at 50% 0, #000, #fff 0.0002%, #000 0.0004%) 0 0/2500px 2500px,
+  repeating-conic-gradient(from 0 at 60% 60%, #000, #fff 0.0002%, #000 0.0004%) 0 0/2500px 2500px;
+  background-blend-mode: difference;
+
+  animation: b .8s infinite alternate;
+}

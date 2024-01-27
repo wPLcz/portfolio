@@ -1,9 +1,9 @@
-import { Background } from '@/app/components/layout/background/Background';
 import { Video } from '@/app/components/layout/video/Video';
 import { DesktopNav } from '@/app/containers/nav/desktop/desktopNav.tsx';
 import { MobileNav } from '@/app/containers/nav/mobile/mobileNav.tsx';
 import '@/app/styles/global.scss'
 import styles from '@/app/layout.module.scss';
+import { Noise } from '@/components/layout/noise/noise.tsx';
 import { SpeedInsights } from '@vercel/speed-insights/next'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
@@ -35,7 +35,7 @@ export default function RootLayout({
           <MobileNav/>
         </div>
         <>
-          <Background/>
+          <Noise/>
           <Video/>
         </>
         <SpeedInsights/>
