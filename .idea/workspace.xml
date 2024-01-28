@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4aa3fe4-fdc8-4576-af18-affba2f2c501" name="Changes" comment="background noise tweak &amp; a11y component fix">
+    <list default="true" id="b4aa3fe4-fdc8-4576-af18-affba2f2c501" name="Changes" comment="xss attack fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/ui/anchor/anchor.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/ui/anchor/anchor.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/ui/anchor/anchor.types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/ui/anchor/anchor.types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/menuListItems.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/menuListItems.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/contact/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/contact/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/containers/nav/desktop/desktopNav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/containers/nav/desktop/desktopNav.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
     </list>
     <list id="66d8d466-7b21-4fc4-a516-eb1d3adcc2bb" name="OLD" comment="">
@@ -266,7 +271,7 @@
       <workItem from="1706002559538" duration="8266000" />
       <workItem from="1706032774861" duration="10758000" />
       <workItem from="1706090655505" duration="7906000" />
-      <workItem from="1706373488878" duration="17000" />
+      <workItem from="1706373488878" duration="3975000" />
     </task>
     <task id="LOCAL-00001" summary="some project amendmends as well as svg fixes">
       <option name="closed" value="true" />
@@ -436,7 +441,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706371942857</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="xss attack fix">
+      <option name="closed" value="true" />
+      <created>1706373543866</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1706373543866</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -468,7 +481,8 @@
     <MESSAGE value="adding colorful animated borders" />
     <MESSAGE value="a11y tweaks" />
     <MESSAGE value="background noise tweak &amp; a11y component fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="background noise tweak &amp; a11y component fix" />
+    <MESSAGE value="xss attack fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="xss attack fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
