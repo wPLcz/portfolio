@@ -10,10 +10,9 @@ export default function Page() {
     <>
       <main className={styles.container}>
         <div className={styles.email}>
-          <Card>
+          <Card align={'right'}>
             <Anchor
               size='medium'
-              type='mailto'
               href={contactDetails.email.value}>
               <div className={styles.content}>
                 <div className={styles.image}>
@@ -21,7 +20,7 @@ export default function Page() {
                 </div>
                 <div className={styles.text}>
                   <Text className={styles.channel} size={'l'}>{contactDetails.email.channel}</Text>
-                  <Text className={styles.value} size={'xl'} color={'secondary'}>
+                  <Text className={styles.value} size={'l'} color={'secondary'}>
                     {contactDetails.email.value}
                   </Text>
                 </div>
@@ -30,7 +29,7 @@ export default function Page() {
           </Card>
         </div>
         <div className={styles.linkedin}>
-          <Card>
+          <Card align='right'>
             <Anchor
               size={'medium'}
               href={contactDetails.linkedin.value}>
@@ -50,41 +49,43 @@ export default function Page() {
           </Card>
         </div>
         <div className={styles.linkedin}>
-          <Card>
-            <div className={styles.content}>
-              <div className={styles.image}>
-                <Image src={'/images/facebook.png'} alt={'gmail icon'} width={75} height={75}/>
-              </div>
+          <Card align='right'>
+            <Anchor
+              size={'medium'}
+              href={contactDetails.facebook.value}>
+              <div className={styles.content}>
+                <div className={styles.image}>
+                  <Image src={'/images/facebook.png'} alt={'gmail icon'} width={75} height={75}/>
+                </div>
 
-              <div className={styles.text}>
-                <Text className={styles.channel} size={'l'}>{contactDetails.facebook.channel}</Text>
-                <Text className={styles.value} size={'l'} color={'secondary'}>
-                  <Anchor
-                    size={'medium'}
-                    href={contactDetails.facebook.value}
-                    label={contactDetails.name}/>
-                </Text>
+                <div className={styles.text}>
+                  <Text className={styles.channel} size={'l'}>{contactDetails.facebook.channel}</Text>
+                  <Text className={styles.value} size={'l'} color={'secondary'}>
+                    {contactDetails.facebook.value}
+                  </Text>
+                </div>
               </div>
-            </div>
+            </Anchor>
           </Card>
         </div>
         <div className={styles.instagram}>
-          <Card>
-            <div className={styles.content}>
-              <div className={styles.image}>
-                <Image src={'/images/instagram.png'} alt={'gmail icon'} width={75} height={75}/>
-              </div>
+          <Card align='right'>
+            <Anchor
+              size={'medium'}
+              href={contactDetails.instagram.value}>
+              <div className={styles.content}>
+                <div className={styles.image}>
+                  <Image src={'/images/instagram.png'} alt={'gmail icon'} width={75} height={75}/>
+                </div>
 
-              <div className={styles.text}>
-                <Text className={styles.channel} size={'l'}>{contactDetails.instagram.channel}</Text>
-                <Text className={styles.value} size={'l'} color={'secondary'}>
-                  <Anchor
-                    size={'medium'}
-                    href={contactDetails.instagram.value}
-                    label={contactDetails.name}/>
-                </Text>
+                <div className={styles.text}>
+                  <Text className={styles.channel} size={'l'}>{contactDetails.instagram.channel}</Text>
+                  <Text className={styles.value} size={'l'} color={'secondary'}>
+                    {contactDetails.name}
+                  </Text>
+                </div>
               </div>
-            </div>
+            </Anchor>
           </Card>
         </div>
       </main>

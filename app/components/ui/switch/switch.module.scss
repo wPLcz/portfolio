@@ -23,6 +23,7 @@
   right: 0;
   bottom: 0;
   background-color: var(--white);
+  box-shadow: 0 0 10px 3px var(--primary);
   transition: .4s;
 }
 
@@ -42,7 +43,7 @@
 }
 
 .input:focus + .slider {
-  box-shadow: 0 0 1px var(--primary);
+  box-shadow: 0 0 4px 1px var(--primary);
 }
 
 .input:checked + .slider:before {

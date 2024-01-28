@@ -18,11 +18,5 @@ export const menuListItems: ListItem[] = [
     href: '/contact',
     isDisabled: false,
     isDownloadable: false
-  },
-  {
-    label: 'cv',
-    href: '/wojciech_palacz.pdf',
-    isDisabled: false,
-    isDownloadable: true
   }
 ]

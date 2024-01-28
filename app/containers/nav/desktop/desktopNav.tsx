@@ -45,7 +45,6 @@ export const DesktopNav: FC = () => {
         <ul className={styles.nav}>
           {menuListItems.map((item, index) => {
             const { href, label } = item;
-            console.log(href);
             const isActive = router.endsWith(href);
             return (
               <li
@@ -65,6 +64,18 @@ export const DesktopNav: FC = () => {
               </li>
             )
           })}
+
+          <li
+            className={classNames(styles.navItem)}>
+            <Anchor
+              href='/wojciech_palacz.pdf'
+              label='CV'
+              size={'large'}
+              target='_blank'
+              underline
+            />
+          </li>
+
         </ul>
         <div className={styles.switch}>
           <Switch

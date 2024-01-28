@@ -24,6 +24,16 @@
   @include responsive.respond-from-medium {
     border-radius: size.$radius;
   }
+
+  &.right {
+    border-radius: size.$radius 0 0 size.$radius;
+    border-right: none;
+  }
+
+  &.left {
+    border-radius: 0 size.$radius size.$radius 0;
+    border-left: none;
+  }
 }
 
 .content {
