@@ -21,7 +21,7 @@ export const menuListItems: ListItem[] = [
   },
   {
     label: 'cv',
-    href: 'wojciech_palacz.pdf',
+    href: '/wojciech_palacz.pdf',
     isDisabled: false,
     isDownloadable: true
   }

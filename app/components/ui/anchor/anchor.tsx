@@ -2,9 +2,10 @@ import styles from '@/components/ui/anchor/anchor.module.scss';
 import { AnchorProps } from '@/components/ui/anchor/anchor.types.ts';
 import classNames from 'classnames';
 import Link from 'next/link';
-import { FC } from 'react';
+import { FC, PropsWithChildren } from 'react';
 
-export const Anchor: FC<AnchorProps> = ({
+export const Anchor: FC<PropsWithChildren<AnchorProps>> = ({
+  children,
   label,
   isActive = false,
   isDisabled = false,
@@ -49,6 +50,7 @@ export const Anchor: FC<AnchorProps> = ({
           )}
           href={outputHref}
           target={target}>
+          {children}
           {label}
         </a>
       </Link>

@@ -11,40 +11,42 @@ export default function Page() {
       <main className={styles.container}>
         <div className={styles.email}>
           <Card>
-            <div className={styles.content}>
-              <div className={styles.image}>
-                <Image src={'/images/gmail.png'} alt={'gmail icon'} width={75} height={75}/>
+            <Anchor
+              size='medium'
+              type='mailto'
+              href={contactDetails.email.value}>
+              <div className={styles.content}>
+                <div className={styles.image}>
+                  <Image src={'/images/gmail.png'} alt={'gmail icon'} width={75} height={75}/>
+                </div>
+                <div className={styles.text}>
+                  <Text className={styles.channel} size={'l'}>{contactDetails.email.channel}</Text>
+                  <Text className={styles.value} size={'xl'} color={'secondary'}>
+                    {contactDetails.email.value}
+                  </Text>
+                </div>
               </div>
-              <div className={styles.text}>
-                <Text className={styles.channel} size={'l'}>{contactDetails.email.channel}</Text>
-                <Text className={styles.value} size={'xl'} color={'secondary'}>
-                  <Anchor
-                    size='medium'
-                    type='mailto'
-                    href={contactDetails.email.value}
-                    label={contactDetails.email.value}/>
-                </Text>
-              </div>
-            </div>
+            </Anchor>
           </Card>
         </div>
         <div className={styles.linkedin}>
           <Card>
-            <div className={styles.content}>
-              <div className={styles.image}>
-                <Image src={'/images/linkedin.png'} alt={'gmail icon'} width={75} height={75}/>
-              </div>
+            <Anchor
+              size={'medium'}
+              href={contactDetails.linkedin.value}>
+              <div className={styles.content}>
+                <div className={styles.image}>
+                  <Image src={'/images/linkedin.png'} alt={'gmail icon'} width={75} height={75}/>
+                </div>
 
-              <div className={styles.text}>
-                <Text className={styles.channel} size={'l'}>{contactDetails.linkedin.channel}</Text>
-                <Text className={styles.value} size={'l'} color={'secondary'}>
-                  <Anchor
-                    size={'medium'}
-                    href={contactDetails.linkedin.value}
-                    label={contactDetails.name}/>
-                </Text>
+                <div className={styles.text}>
+                  <Text className={styles.channel} size={'l'}>{contactDetails.linkedin.channel}</Text>
+                  <Text className={styles.value} size={'l'} color={'secondary'}>
+                    {contactDetails.linkedin.value}
+                  </Text>
+                </div>
               </div>
-            </div>
+            </Anchor>
           </Card>
         </div>
         <div className={styles.linkedin}>

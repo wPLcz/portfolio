@@ -1,7 +1,7 @@
 import { HTMLAttributeAnchorTarget } from 'react';
 
 export interface AnchorProps {
-  label: string;
+  label?: string;
   href: string;
   size: 'medium' | 'large' | 'xlarge';
   type?: 'link' | 'mailto'

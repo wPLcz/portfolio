@@ -45,6 +45,7 @@ export const DesktopNav: FC = () => {
         <ul className={styles.nav}>
           {menuListItems.map((item, index) => {
             const { href, label } = item;
+            console.log(href);
             const isActive = router.endsWith(href);
             return (
               <li

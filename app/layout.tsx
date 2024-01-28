@@ -24,10 +24,6 @@ export default function RootLayout({
     <html lang='en'>
       <head>
         <meta name='view-transition' content='same-origin'/>
-        <meta
-          httpEquiv='Content-Security-Policy'
-          content="default-src 'self'; script-src 'self' 'unsafe-eval' 'unsafe-inline'; child-src 'none';"
-        />
         <title>Wojciech Palacz</title>
       </head>
       <body
