@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4aa3fe4-fdc8-4576-af18-affba2f2c501" name="Changes" comment="xss attack fix">
+    <list default="true" id="b4aa3fe4-fdc8-4576-af18-affba2f2c501" name="Changes" comment="small fixes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/ui/card/card.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/ui/card/card.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/ui/card/card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/ui/card/card.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/ui/card/card.types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/ui/card/card.types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/ui/switch/switch.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/ui/switch/switch.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/menuListItems.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/menuListItems.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/contact/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/contact/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/containers/nav/desktop/desktopNav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/containers/nav/desktop/desktopNav.tsx" afterDir="false" />
     </list>
     <list id="66d8d466-7b21-4fc4-a516-eb1d3adcc2bb" name="OLD" comment="">
       <change beforePath="$PROJECT_DIR$/../portfolio_2018/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio_2018/.gitignore" afterDir="false" />
@@ -272,7 +265,7 @@
       <workItem from="1706002559538" duration="8266000" />
       <workItem from="1706032774861" duration="10758000" />
       <workItem from="1706090655505" duration="7906000" />
-      <workItem from="1706373488878" duration="7231000" />
+      <workItem from="1706373488878" duration="8817000" />
     </task>
     <task id="LOCAL-00001" summary="some project amendmends as well as svg fixes">
       <option name="closed" value="true" />
@@ -466,11 +459,30 @@
       <option name="project" value="LOCAL" />
       <updated>1706428875044</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="small fixes">
+      <option name="closed" value="true" />
+      <created>1706433583569</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1706433583569</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -499,7 +511,8 @@
     <MESSAGE value="a11y tweaks" />
     <MESSAGE value="background noise tweak &amp; a11y component fix" />
     <MESSAGE value="xss attack fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="xss attack fix" />
+    <MESSAGE value="small fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="small fixes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
